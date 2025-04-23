@@ -47,12 +47,12 @@ case $cmd in
 		
 
 		if [ "$container_running" = "true" ] && [ "$cmd" = "start" ]; then
-			echo "Docker already running."
+			echo "Container already running."
 			exit 0
 		fi
 
 		if [ "$container_running" = "false" ] && [ "$cmd" = "stop" ]; then
-                        echo "Docker is already inactive."
+                        echo "Container is already inactive."
                         exit 0
                 fi
 
