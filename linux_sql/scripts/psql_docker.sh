@@ -25,7 +25,7 @@ case $cmd in
                 fi
 
 		# Check if container exists
-		if [ $container_status -eq 0 ]; then
+		if [ "$container_status" -eq 0 ]; then
 			echo 'Container already exists.'
 			exit 1
 		fi
@@ -33,18 +33,29 @@ case $cmd in
 		docker volume pgdata
 		docker run --name jrvs-psql -e POSTGRES_USER=$db_username -e POSTGRES_PASSWORD=$db_password -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine
 		container_status=$?
-	
-                if [ $container_status -eq 0 ]; then
-                        echo 'Container created successfully.'
-			exit 0
-                else
-                        echo 'Failed to create container. Please debug.'
-			exit 1
-                fi
 	;;
 
 	# To start || Stop Container
 	start|stop)
+
+		if [ "$container_status" -ne 0 ]; then
+                        echo 'Container does not exist. Please create a new container.'
+                        exit 1
+                fi
+
+		container_running=$(docker inspect -f '{{.State.Running}}' jrvs-psql 2>/dev/null)
+		
+
+		if [ "$container_running" = "true" ] && [ "$cmd" = "start" ]; then
+			echo "Docker already running."
+			exit 0
+		fi
+
+		if [ "$container_running" = "false" ] && [ "$cmd" = "stop" ]; then
+                        echo "Docker is already inactive."
+                        exit 0
+                fi
+
 
 		docker container $cmd jrvs-psql
 		container_status=$?
@@ -64,3 +75,4 @@ case $cmd in
 		exit 1
 	;;
 esac
+
