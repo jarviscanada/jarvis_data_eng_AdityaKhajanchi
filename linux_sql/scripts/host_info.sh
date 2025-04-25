@@ -38,5 +38,5 @@ export PGPASSWORD=$psql_pass
 
 # Executing INSERT statement into psql DB
 psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
-echo $?
+echo Exit code: $?
 exit $?
