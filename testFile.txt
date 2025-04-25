@@ -1,3 +1,0 @@
-This is a file to test git pull on local repo.
-
-Added this line from local. Will push now
