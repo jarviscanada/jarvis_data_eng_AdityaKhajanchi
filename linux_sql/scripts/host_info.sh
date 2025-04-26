@@ -19,11 +19,11 @@ lscpu_out=$(lscpu)
 # Retrieve host hardware info and assigning it to variables
 # id: DEFAULT in psql insert statement as it is set as auto increment in the psql database
 hostname=$(hostname -f)
-cpu_number=$(echo $lscpu_out | grep -E "^CPU\(s\):" | awk '{print $2}' | xargs)
-cpu_architecture=$(echo $lscpu_out | grep -E "^Architecture:" | awk '{print $2}' | xargs)
-cpu_model=$(echo $lscpu_out | grep -E "Model name:" | awk -F: '{print $2}' | xargs)
-cpu_mhz=$(echo $lscpu_out | grep -E "Model name:" | awk -F@ '{print $2}' | awk '{print $1*1000}' | xargs)
-L2_cache=$(echo $lscpu_out | grep -E "L2 cache:" | awk '{print $3}' | xargs)
+cpu_number=$(echo "$lscpu_out" | grep -E "^CPU\(s\):" | awk '{print $2}' | xargs)
+cpu_architecture=$(echo "$lscpu_out" | grep -E "^Architecture:" | awk '{print $2}' | xargs)
+cpu_model=$(echo "$lscpu_out" | grep -E "Model name:" | awk -F: '{print $2}' | xargs)
+cpu_mhz=$(echo "$lscpu_out" | grep -E "Model name:" | awk -F@ '{print $2}' | awk '{print $1*1000}' | xargs)
+L2_cache=$(echo "$lscpu_out" | grep -E "L2 cache:" | awk '{print $3}' | xargs)
 total_mem=$(free | awk '/Mem:/ {print $2}')
 timestamp=$(date "+%F %T") # System time in UTC YYYY-MM-DD HH:MM:SS format
 
