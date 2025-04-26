@@ -1,17 +1,17 @@
 #!/bin/bash
 
+# Check number of arguments passed
+if [ "$#" -ne 5 ]; then
+  echo "Arguments missing. Please check."
+  exit 1
+fi
+
 # Assign CLI arguments to variables
 psql_host=$1
 psql_port=$2
 db_name=$3
 psql_user=$4
 psql_pass=$5
-
-# Check number of arguments passed
-if [ "$#" -ne 5 ]; then
-  echo "Arguments missing. Please check."
-  exit 1
-fi
 
 # Save host hardware specs to variable
 lscpu_out=$(lscpu)
@@ -35,5 +35,9 @@ export PGPASSWORD=$psql_pass
 
 # Execute INSERT statement into psql DB
 psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
-echo Exit code: $?
+if [ $? -ne 0 ]; then
+  echo "Failed to insert into database."
+else
+  echo "Records inserted successfully."
+fi
 exit $?
