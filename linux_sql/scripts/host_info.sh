@@ -14,7 +14,7 @@ if [ "$#" -ne 5 ]; then
 fi
 
 # Save host hardware specs to variable
-lscpu_out=$("`lscpu`")
+lscpu_out=$(lscpu)
 
 # Retrieve host hardware info and assigning it to variables
 # id: DEFAULT in psql insert statement as it is set as auto increment in the psql database
