@@ -20,9 +20,9 @@ hostname=$(hostname -f)
 
 timestamp=$(date "+%F %T") # System time in UTC YYYY-MM-DD HH:MM:SS format # Applies DRY Principle
 host_id="(SELECT id FROM host_info WHERE hostname='$hostname')";
-memory_free=$(echo "`vmstat --unit M`" | awk '{print $4}' | tail -n1 | xargs)
-cpu_idle=$(echo "`vmstat --unit M`" | awk '{print $15}' | tail -n1 | xargs)
-cpu_kernel=$(echo "`vmstat --unit M`" | awk '{print $14}' | tail -n1 | xargs)
+memory_free=$(echo $vmstat_out | awk '{print $4}' | tail -n1 | xargs)
+cpu_idle=$(echo $vmstat_out | awk '{print $15}' | tail -n1 | xargs)
+cpu_kernel=$(echo $vmstat_out | awk '{print $14}' | tail -n1 | xargs)
 disk_io=$(echo "`vmstat -d`" | awk '{print $10}' | tail -n1 | xargs)
 disk_available=$(echo "`df -BM /`"| awk '{print $4*1}' | tail -n1 | xargs)
 
@@ -33,6 +33,6 @@ insert_stmt="INSERT INTO host_usage VALUES('$timestamp','$host_id','$memory_free
 export PGPASSWORD=$psql_pass
 
 # Execute insert statement
-psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "insert_stmt"
+psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
 echo Exit code: $?
 exit $?
