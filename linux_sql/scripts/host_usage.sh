@@ -18,7 +18,7 @@ vmstat_out=$(vmstat --unit M)
 hostname=$(hostname -f)
 # Retrieve host usage info through vmstat and assigning it to variables
 
-timestamp=$(vmstat -t | awk '{print $18,$19}' | tail -n1 | xargs) # System time in UTC YYYY-MM-DD HH:MM:SS format # Applies DRY Principle
+timestamp=$(vmstat -t | awk '{print $18,$19}' | tail -n1 | xargs) # System time in UTC YYYY-MM-DD HH:MM:SS format
 host_id="(SELECT id FROM host_info WHERE hostname='$hostname')"
 memory_free=$(echo "$vmstat_out" | awk '{print $4}' | tail -n1 | xargs)
 cpu_idle=$(echo "$vmstat_out" | awk '{print $15}' | tail -n1 | xargs)
