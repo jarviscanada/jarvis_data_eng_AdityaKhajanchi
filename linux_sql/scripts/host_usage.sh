@@ -37,6 +37,6 @@ psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
 if [ $? -ne 0 ]; then
   echo "Failed to insert into database."
 else
-  echo "Records inserted successfully."
+	echo "Records inserted successfully at "$(date '+%F %T')"."
 fi
 exit $?
