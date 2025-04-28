@@ -18,7 +18,7 @@ vmstat_out=$(vmstat --unit M)
 hostname=$(hostname -f)
 # Retrieve host usage info through vmstat and assigning it to variables
 
-timestamp=$(date "+%F %T") # System time in UTC YYYY-MM-DD HH:MM:SS format # Applies DRY Principle
+timestamp=$(vmstat -t | awk '{print $18,$19}' | tail -n1 | xargs) # System time in UTC YYYY-MM-DD HH:MM:SS format # Applies DRY Principle
 host_id="(SELECT id FROM host_info WHERE hostname='$hostname')"
 memory_free=$(echo "$vmstat_out" | awk '{print $4}' | tail -n1 | xargs)
 cpu_idle=$(echo "$vmstat_out" | awk '{print $15}' | tail -n1 | xargs)
@@ -27,7 +27,7 @@ disk_io=$(echo "`vmstat -d`" | awk '{print $10}' | tail -n1 | xargs)
 disk_available=$(echo "`df -BM /`"| awk '{print $4*1}' | tail -n1 | xargs)
 
 # INSERT statement
-insert_stmt="INSERT INTO host_usage VALUES('$timestamp',$host_id,'$memory_free','$cpu_idle','$cpu_kernel','$disk_io','$disk_available')"
+insert_stmt="INSERT INTO host_usage VALUES('$timestamp',$host_id,$memory_free,$cpu_idle,$cpu_kernel,$disk_io,$disk_available)"
 
 # Set password env variable for psql cmd
 export PGPASSWORD=$psql_pass
