@@ -70,7 +70,7 @@ Follow the steps below to quickly set up and run the project.
    Add the following line to run `host_usage.sh` every minute:
 
    ```
-   * * * * * bash /dir_name/dir_name/host_usage.sh [host_name] [port Default:5432] [db_name] [db_username] [db_password] &> /tmp/host_usage.log 2>&1
+   * * * * * bash /home/user/filepath/to/host_usage.sh [host_name] [port Default:5432] [db_name] [db_username] [db_password] &> /tmp/host_usage.log 2>&1
    ```
    Creates a log file under [user/tmp/], that is overwritten with exit code and status, every time the process runs
 
@@ -170,11 +170,11 @@ The database includes two key tables: `host_info` and `host_usage`.
 - Manually tested bash scripts on a Rocky Linux VM
 - Debugged scripts using `bash -x` to trace execution line by line
 - Printed exit codes after each critical step to check for pass/fail
+- Tested crontab to make sure data was collected every minute
 - Logged script status and exit codes to a cron log file
 - Checked that scripts collected correct data (CPU, memory, etc.)
 - Verified data was stored in the **PostgreSQL** tables
 - Used `\dt` and `SELECT` queries to confirm table creation and data insertion
-- Tested crontab to make sure data was collected every minute
 - All tests passed without errors
 
 # Deployment
