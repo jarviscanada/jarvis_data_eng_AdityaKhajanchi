@@ -50,8 +50,8 @@ Follow the steps below to quickly set up and run the project.
    ```
    ./scripts/host_info.sh [host_name] [port Default:5432] [db_name] [db_username] [db_password]
    ```
-   > [NOTE]
-   >  ```hostname``` has to be unique, hence the current script can only run once per node
+   > [!NOTE]
+   > ```hostname``` has to be unique, hence the current script can only run once per node
 
 4. **Collect and insert real-time resource usage data (runs periodically)**
 
@@ -82,7 +82,7 @@ The project is implemented in a Rocky Linux 9 VM instance on Google Cloud Platfo
 
 The architecture is designed to handle multiple Linux nodes, each running two Bash scripts (`host_info.sh` and `host_usage.sh`). These scripts collect data and insert it into a PostgreSQL database that runs inside a Docker container. All scripts are scheduled using `cron` for automation.
 
-![Linux Cluster Monitoring Agent Diagram](https://raw.githubusercontent.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/refs/heads/feature/readme/assets/LCM_Diagram.png)
+![Linux Cluster Monitoring Agent Diagram](assets/LCM_Diagram.png)
 
 ### Scripts
 
