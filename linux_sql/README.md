@@ -50,7 +50,7 @@ Follow the steps below to quickly set up and run the project.
    ```
    ./scripts/host_info.sh [host_name] [port Default:5432] [db_name] [db_username] [db_password]
    ```
-   > [!NOTE]
+   > [NOTE]
    > ```hostname``` has to be unique, hence the current script can only run once per node
 
 4. **Collect and insert real-time resource usage data (runs periodically)**
