@@ -155,8 +155,6 @@ The database includes two key tables: `host_info` and `host_usage`.
 | disk_io        | INT4      | NOT NULL                               | Number of disk I/O operations          |
 | disk_available | INT4      | NOT NULL                               | Available disk space in MB (root dir)  |
 
----
-
 # Test
 
 - Manually tested bash scripts on a Rocky Linux VM
