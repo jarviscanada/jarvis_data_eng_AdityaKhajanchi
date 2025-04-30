@@ -1,10 +1,20 @@
 # Linux Cluster Monitoring Agent - MVP
 
+- [Introduction](#introduction)
+- [Quick Start](#quick-start)
+- [Implementation](#implementation)
+  - [Architecture](#architecture)
+  - [Scripts](#scripts)
+  - [Database Modeling](#database-modeling)
+- [Test](#test)
+- [Deployment](#deployment)
+- [Improvements](#improvements)
+
 ## Introduction
 
 This project is developed to support the Linux Cluster Administration (LCA) team in monitoring and managing a cluster of servers running Rocky Linux. As per the LCA team's requirements, the solution records hardware specifications and real-time resource usage metrics from each node into a relational database (RDBMS).
 
-This tailored solution fulfills the required objectives and serves as a monitoring tool that records data in real time. The LCA team can use the stored data to analyze server performance, generate reports, and make informed decisions for future capacity planningsuch as scaling the cluster by adding or removing nodes, or upgrading certain hardware.
+This tailored solution fulfills the required objectives and serves as a monitoring tool that records data in real time. The LCA team can use the stored data to analyze server performance, generate reports, and make informed decisions for future capacity planning such as scaling the cluster by adding or removing nodes, or upgrading certain hardware.
 
 The script uses core Linux technologies and open-source tools, including:
 
