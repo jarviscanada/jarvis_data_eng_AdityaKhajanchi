@@ -82,7 +82,7 @@ Below is a list of the key scripts used in this project and their functionalitie
 
 This script starts a PostgreSQL container using Docker.
 
-- Accepts three arguments from the user: start|stop|create; database username, database password  
+- Accepts three arguments from user: start|stop|create; database username, database password  
 - The script passes these static values: docker container name, port, postgres version to install, postgres internal directory location
 
 ```
