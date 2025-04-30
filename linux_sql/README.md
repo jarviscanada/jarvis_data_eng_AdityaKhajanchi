@@ -92,7 +92,7 @@ Below is a list of the key scripts used in this project and their functionalitie
 
 This script starts a PostgreSQL container using Docker.
 
-- Accepts three arguments from user: start|stop|create; database username, database password  
+- Accepts three arguments from the user: start|stop|create; database username, database password  
 - The script passes these static values: docker container name, port, postgres version to install, postgres internal directory location
 
 ```
@@ -155,15 +155,15 @@ The database includes two key tables: `host_info` and `host_usage`.
 
 ### `host_usage` Table
 
-| Column Name    | Data Type | Constraints                            | Description                            |
-|----------------|-----------|----------------------------------------|----------------------------------------|
-| timestamp      | TIMESTAMP | NOT NULL                               | Time of resource usage recording (UTC) |
-| host_id        | SERIAL    | NOT NULL, Foreign Key `host_info(id)`  | Linked to host_info table id record    |
-| memory_free    | INT4      | NOT NULL                               | Free memory in MB                      |
-| cpu_idle       | INT2      | NOT NULL                               | % of CPU that is idle                  |
-| cpu_kernel     | INT2      | NOT NULL                               | % of CPU used by the kernel            |
-| disk_io        | INT4      | NOT NULL                               | Number of disk I/O operations          |
-| disk_available | INT4      | NOT NULL                               | Available disk space in MB (root dir)  |
+| Column Name    | Data Type | Constraints                           | Description                            |
+|----------------|-----------|---------------------------------------|----------------------------------------|
+| timestamp      | TIMESTAMP | NOT NULL                              | Time of resource usage recording (UTC) |
+| host_id        | SERIAL    | NOT NULL, Foreign Key `host_info(id)` | Linked to host_info table id record    |
+| memory_free    | INT4      | NOT NULL                              | Free memory in MB                      |
+| cpu_idle       | INT2      | NOT NULL                              | % of CPU that is idle                  |
+| cpu_kernel     | INT2      | NOT NULL                              | % of CPU used by the kernel            |
+| disk_io        | INT4      | NOT NULL                              | Number of disk I/O operations          |
+| disk_available | INT4      | NOT NULL                              | Available disk space in MB             |
 
 # Test
 
