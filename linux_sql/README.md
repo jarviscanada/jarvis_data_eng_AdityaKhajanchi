@@ -172,7 +172,7 @@ The database includes two key tables: `host_info` and `host_usage`.
 - Printed exit codes after each critical step to check for pass/fail
 - Logged script status and exit codes to a cron log file
 - Checked that scripts collected correct data (CPU, memory, etc.)
-- Verified data was stored in the PostgreSQL tables
+- Verified data was stored in the **PostgreSQL** tables
 - Used `\dt` and `SELECT` queries to confirm table creation and data insertion
 - Tested crontab to make sure data was collected every minute
 - All tests passed without errors
