@@ -72,7 +72,7 @@ The project is implemented in a Rocky Linux 9 VM instance on Google Cloud Platfo
 
 The architecture is designed to handle multiple Linux nodes, each running two Bash scripts (`host_info.sh` and `host_usage.sh`). These scripts collect data and insert it into a PostgreSQL database that runs inside a Docker container. All scripts are scheduled using `cron` for automation.
 
-![Linux Cluster Monitoring Agent Diagram]()
+![Linux Cluster Monitoring Agent Diagram](https://raw.githubusercontent.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/refs/heads/feature/readme/assets/LCM_Diagram.png)
 
 ### Scripts
 
@@ -82,7 +82,7 @@ Below is a list of the key scripts used in this project and their functionalitie
 
 This script starts a PostgreSQL container using Docker.
 
-- Accepts three arguments from user: start|stop|create; database username, database password  
+- Accepts three arguments from the user: start|stop|create; database username, database password  
 - The script passes these static values: docker container name, port, postgres version to install, postgres internal directory location
 
 ```
