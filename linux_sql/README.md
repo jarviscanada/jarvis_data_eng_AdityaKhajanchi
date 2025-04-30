@@ -50,7 +50,7 @@ Follow the steps below to quickly set up and run the project.
    ```
    ./scripts/host_info.sh [host_name] [port Default:5432] [db_name] [db_username] [db_password]
    ```
-   > [NOTE]
+   > [IMP]
    > ```hostname``` has to be unique, hence the current script can only run once per node
 
 4. **Collect and insert real-time resource usage data (runs periodically)**
@@ -72,11 +72,11 @@ Follow the steps below to quickly set up and run the project.
    ```
    * * * * * bash /home/user/filepath/to/host_usage.sh [host_name] [port Default:5432] [db_name] [db_username] [db_password] &> /tmp/host_usage.log 2>&1
    ```
-   Creates a log file under [user/tmp/], that is overwritten with exit code and status, every time the process runs
+   Creates a log file under [user/tmp/], that is overwritten with exit code and status, on every run
 
 ## Implementation
 
-The project is implemented in a Rocky Linux 9 VM instance on Google Cloud Platform. This following section explains the project design and how the components work together to meet the monitoring requirements.
+The project is implemented in a Rocky Linux 9 VM instance on Google Cloud Platform. Following section explains the project design and how the components work together to meet the monitoring requirements.
 
 ### Architecture
 
