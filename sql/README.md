@@ -13,7 +13,7 @@
 
 This self-directed SQL learning project was designed to help me practice and deepen my understanding of essential SQL concepts, including Data Query Language (DQL), Data Definition Language (DDL), Data Manipulation Language (DML), joins, aggregate functions, subqueries, and window functions. 
 The database used consists of three interrelated tables: members, facilities, and bookings. 
-All queries were practiced on pgexercises.com, and the database was also added locally for hands-on execution using PostgreSQL in a Docker environment.
+All queries were practiced on pgexercises.com, and the database was locally initialized using the *clubdata.sql* script for hands-on execution in a PostgreSQL Docker environment within the JRD.
 
 ## Quick Start
 1. Start your PostgreSQL container using Docker.
