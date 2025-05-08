@@ -8,7 +8,7 @@
   - [Query Basics (DQL)](#Section-2-basics)
   - [Joins](#Section-3-joins)
   - [Aggregation & Window Functions](#Section-4-aggregate-functions)
-  - [String](#Section-5-string-manupulation)
+  - [String](#Section-5-string-manipulation)
 ## Introduction
 
 This self-directed SQL learning project was designed to help me practice and deepen my understanding of essential SQL concepts, including Data Query Language (DQL), Data Definition Language (DDL), Data Manipulation Language (DML), joins, aggregate functions, subqueries, and window functions. 
@@ -299,7 +299,7 @@ FROM
 WHERE RANK=1;
 ```
 
-### Section 5: String Manupulation
+### Section 5: String Manipulation
 ```sql
 /*
     26. Output the names of all members, formatted as 'Surname, Firstname'
