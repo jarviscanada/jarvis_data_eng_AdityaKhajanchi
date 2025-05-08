@@ -8,7 +8,7 @@
   - [Query Basics (DQL)](#Section-2-basics)
   - [Joins](#Section-3-joins)
   - [Aggregation & Window Functions](#Section-4-aggregate-functions)
-  - [String](#Section-5-string-manipulation)
+  - [String Manipulation](#Section-5-string-manipulation)
 ## Introduction
 
 This self-directed SQL learning project was designed to help me practice and deepen my understanding of essential SQL concepts, including Data Query Language (DQL), Data Definition Language (DDL), Data Manipulation Language (DML), joins, aggregate functions, subqueries, and window functions. 
@@ -16,12 +16,12 @@ The database used consists of three interrelated tables: members, facilities, an
 All queries were practiced on pgexercises.com, and the database was locally initialized using the *clubdata.sql* script for hands-on execution in a PostgreSQL Docker environment within the JRD.
 
 ## Quick Start
-1. Start your PostgreSQL container using Docker.
-2. Load the sample data into your database using the script.
+1. Start a PostgreSQL container in Docker
+2. Initialize Database and load sample data from the ```clubdata.sql``` script file using the bash cmd
 
 > [Clubdata.sql](https://raw.githubusercontent.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/f9d9d296cdeb59d266e0f4e29073ddf8a72fac20/sql/clubdata.sql)
 
-```
+```bash
 # Modify this query for your database (e.g. database name, connection, etc) 
 psql -U <username> -f clubdata.sql -d postgres -x -q
 ```
