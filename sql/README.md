@@ -28,7 +28,7 @@ psql -U <username> -f clubdata.sql -d postgres -x -q
 
 ## Database Design
 
-Table: ```cd.members```
+Table: ```cd.members``` (37 Rows)
 ```sql
 CREATE TABLE cd.members(
 memid INTEGER PRIMARY KEY,
@@ -42,7 +42,7 @@ joindate TIMESTAMP,
 FOREIGN KEY (recommendedby) REFERENCES cd.members(memid)
 );
 ```
-Table: ```cd.facilities```
+Table: ```cd.facilities``` (8 Rows)
 ```sql
 CREATE TABLE cd.facilities(
 facid INTEGER PRIMARY KEY,
@@ -54,7 +54,7 @@ monthlymaintenance NUMERIC
 );
 ```
 
-Table: ```cd.bookings```
+Table: ```cd.bookings``` (4043 Rows)
 ```sql
 CREATE TABLE cd.bookings(
 bookid INTEGER PRIMARY KEY,
