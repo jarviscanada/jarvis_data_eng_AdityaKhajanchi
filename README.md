@@ -33,7 +33,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaKhaj
 ## Highlighted Projects
 **Interactive Crime Map for Chicago** [[GitHub](https://github.com/ANK002X/DA-Projects/blob/2489f63ced2365bece7fa054d2a22f3bf85444d4/PersonalProjects/4a_ChicagoCrimesDataVisualization%5BView_in_Browser%5D.ipynb)]: Developed an interactive heatmap visualization of crime incidents, offering insights into high-crime areas and trends in Chicago.
 
-**Superstore Dashboard** [[GitHub](https://github.com/ANK002X/DA-Projects/blob/2489f63ced2365bece7fa054d2a22f3bf85444d4/PersonalProjects/2 SuperstoreDashboard.ipynb)]: Collaborated with a team of seven to analyze the Global Superstore dataset and create a dashboard visualizing key metrics, presenting findings to an audience of 70
+**Superstore Dashboard** [[GitHub](https://github.com/ANK002X/DA-Projects/blob/2489f63ced2365bece7fa054d2a22f3bf85444d4/PersonalProjects/2_SuperstoreDashboard.ipynb)]: Collaborated with a team of seven to analyze the Global Superstore dataset and create a dashboard visualizing key metrics, presenting findings to an audience of 70
 
 
 ## Professional Experiences
