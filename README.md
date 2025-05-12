@@ -45,10 +45,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaKhaj
 
 ## Education
 **St. Clair College (2019-2020)**, Post-graduate Certificate, Data Analytics for Business
-- Scholarship
 - GPA: 3.8/4.0
 
-**Ahmedabad University (2015-2018)**, Bachelor of Computer Applications, Computer Science
+**Ahmedabad University (2015-2018)**, Bachelor of Computer Application, Computer Science
 - GPA: 3.5/4.0
 
 

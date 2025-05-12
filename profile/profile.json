@@ -2,7 +2,6 @@
   "education": [
     {
       "awards_achievements": [
-        "Scholarship",
         "GPA: 3.8/4.0"
       ],
       "degree": "Post-graduate Certificate",
@@ -14,7 +13,7 @@
       "awards_achievements": [
         "GPA: 3.5/4.0"
       ],
-      "degree": "Bachelor of Computer Applications",
+      "degree": "Bachelor of Computer Application",
       "department": "Computer Science",
       "duration": "2015-2018",
       "school_name": "Ahmedabad University"
