@@ -98,7 +98,6 @@ education:
     department: "Data Analytics for Business"
     # optional
     awards_achievements: 
-      - "Scholarship"
       - "GPA: 3.8/4.0"
   - school_name: "Ahmedabad University"
     duration: "2015-2018"
