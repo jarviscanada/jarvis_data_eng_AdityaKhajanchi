@@ -1,27 +1,23 @@
 # Aditya Khajanchi . Jarvis Consulting
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+I am a curious, detail-oriented, and enthusiastic individual with strong communication and collaboration skills. I enjoy taking on new challenges and solving problems that have a positive impact, ultimately driving team and organizational success. Proficient in SQL, Python, Advanced Excel, Power BI, and other tools, I identify patterns, derive actionable insights, optimize processes, and empower decision-making. Throughout my academic and work experiences, I have demonstrated leadership, collaboration, and stakeholder management while thriving in dynamic, fast-paced environments.
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Python, Reporting, Presentations, RDBMS/SQL, Advanced Excel, Agile/Scrum, Git
 
-**Competent:** Donec, fermentum, Donec, fermentum, Donec
+**Competent:** Tableau/PowerBI, MS SQL Server, VISIO, Trello, Documentation, Azure AI Services, IBM Cognos
 
-**Familiar:** Donec, fermentum, fermentum, fermentum, fermentum
+**Familiar:** R, Snowflake, JIRA, MS Project, Technical Writing
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/tree/master/linux_sql)]: Developed an automated monitoring solution for the Linux Cluster Administration (LCA) team to track hardware specifications and real-time resource usage across Rocky Linux servers. Integrated Bash scripts with PostgreSQL to store data persistently, using Docker for containerized deployment and crontab for scheduled execution. Leveraged Git for version control and implemented a scalable system that supports performance analysis, reporting, and future capacity planning. Demonstrated proficiency in Linux system administration, scripting, database management, and DevOps practices.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/tree/master/core_java)]:
-      
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
+**In progress** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/tree/master/sql)]: In Progress
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/tree/master/springboot)]: Not Started
 
@@ -35,16 +31,16 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaKhaj
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Interactive Crime Map for Chicago** [[GitHub](https://github.com/ANK002X/DA-Projects/blob/2489f63ced2365bece7fa054d2a22f3bf85444d4/PersonalProjects/4a_ChicagoCrimesDataVisualization%5BView_in_Browser%5D.ipynb)]: Developed an interactive heatmap visualization of crime incidents, offering insights into high-crime areas and trends in Chicago.
 
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Superstore Dashboard** [[GitHub](https://github.com/ANK002X/DA-Projects/blob/2489f63ced2365bece7fa054d2a22f3bf85444d4/PersonalProjects/2 SuperstoreDashboard.ipynb)]: Collaborated with a team of seven to analyze the Global Superstore dataset and create a dashboard visualizing key metrics, presenting findings to an audience of 70
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Software Developer, Jarvis (2025-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Data Analyst, Geopogo (2022-Present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
 
 
 ## Education

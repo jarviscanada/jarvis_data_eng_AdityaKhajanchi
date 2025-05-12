@@ -22,30 +22,26 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi",
   "highlighted_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
-      "name": "Web app for resturant"
+      "description": "Developed an interactive heatmap visualization of crime incidents, offering insights into high-crime areas and trends in Chicago.",
+      "git_url": "https://github.com/ANK002X/DA-Projects/blob/2489f63ced2365bece7fa054d2a22f3bf85444d4/PersonalProjects/4a_ChicagoCrimesDataVisualization%5BView_in_Browser%5D.ipynb",
+      "name": "Interactive Crime Map for Chicago"
     },
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": null,
-      "name": "Machine Learning"
+      "description": "Collaborated with a team of seven to analyze the Global Superstore dataset and create a dashboard visualizing key metrics, presenting findings to an audience of 70",
+      "git_url": "https://github.com/ANK002X/DA-Projects/blob/2489f63ced2365bece7fa054d2a22f3bf85444d4/PersonalProjects/2 SuperstoreDashboard.ipynb",
+      "name": "Superstore Dashboard"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "description": "Developed an automated monitoring solution for the Linux Cluster Administration (LCA) team to track hardware specifications and real-time resource usage across Rocky Linux servers. Integrated Bash scripts with PostgreSQL to store data persistently, using Docker for containerized deployment and crontab for scheduled execution. Leveraged Git for version control and implemented a scalable system that supports performance analysis, reporting, and future capacity planning. Demonstrated proficiency in Linux system administration, scripting, database management, and DevOps practices.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     },
     {
-      "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      ],
-      "git_url": "/core_java",
-      "name": "Core Java Apps"
+      "description": "In Progress",
+      "git_url": "/sql",
+      "name": "In progress"
     },
     {
       "description": "",
@@ -100,38 +96,42 @@
     {
       "company": "Jarvis",
       "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2020-present",
+      "duration": "2025-present",
       "title": "Software Developer"
     },
     {
-      "company": "XYZ Company",
+      "company": "Geopogo",
       "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2019",
-      "title": "Tutor"
+      "duration": "2022-Present",
+      "title": "Data Analyst"
     }
   ],
   "skills": {
     "competent": [
-      "Donec",
-      "fermentum",
-      "Donec",
-      "fermentum",
-      "Donec"
+      "Tableau/PowerBI",
+      "MS SQL Server",
+      "VISIO",
+      "Trello",
+      "Documentation",
+      "Azure AI Services",
+      "IBM Cognos"
     ],
     "familiar": [
-      "Donec",
-      "fermentum",
-      "fermentum",
-      "fermentum",
-      "fermentum"
+      "R",
+      "Snowflake",
+      "JIRA",
+      "MS Project",
+      "Technical Writing"
     ],
     "proficient": [
-      "Java",
-      "Linux/Bash",
+      "Python",
+      "Reporting",
+      "Presentations",
       "RDBMS/SQL",
+      "Advanced Excel",
       "Agile/Scrum",
       "Git"
     ]
   },
-  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit."
+  "summary": "I am a curious, detail-oriented, and enthusiastic individual with strong communication and collaboration skills. I enjoy taking on new challenges and solving problems that have a positive impact, ultimately driving team and organizational success. Proficient in SQL, Python, Advanced Excel, Power BI, and other tools, I identify patterns, derive actionable insights, optimize processes, and empower decision-making. Throughout my academic and work experiences, I have demonstrated leadership, collaboration, and stakeholder management while thriving in dynamic, fast-paced environments."
 }
