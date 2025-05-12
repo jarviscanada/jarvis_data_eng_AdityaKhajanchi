@@ -44,12 +44,12 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaKhaj
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
+**St. Clair College (2019-2020)**, Post-graduate Certificate, Data Analytics for Business
 - Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
 - GPA: 3.8/4.0
 
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
+**Ahmedabad University (2015-2018)**, Bachelor of Computer Applications, Computer Science
+- GPA: 3.5/4.0
 
 
 ## Miscellaneous
