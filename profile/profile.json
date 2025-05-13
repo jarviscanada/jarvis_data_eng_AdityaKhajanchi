@@ -4,23 +4,24 @@
       "awards_achievements": [
         "GPA: 3.8/4.0",
         "Presented 'Rent Analysis \u0026 Municipal Services Call Analysis of Windsor City' Data Visualization project to ambassadors of Argentina, Chile, Ecuador, and Peru",
-        "Class Representative, Student Council"
+        "Class Representative, Student Council Member"
       ],
       "degree": "Post-graduate Certificate",
-      "department": "Data Analytics for Business",
+      "department": "Data Analytics",
       "duration": "2019-2020",
-      "school_name": "St. Clair College"
+      "school_name": "Zekelman School of Business, St. Clair College"
     },
     {
       "awards_achievements": [
         "GPA: 3.5/4.0",
-        "President, Tech Club",
-        "President, Campus Events Committee"
+        "President, Computer and Tech Club",
+        "President, Campus Events Committee",
+        "Invitee, Student Council Member"
       ],
       "degree": "Bachelor of Computer Application",
-      "department": "Computer Science",
+      "department": "Computer Applications",
       "duration": "2015-2018",
-      "school_name": "Ahmedabad University"
+      "school_name": "School of Computer Studies, Ahmedabad University"
     }
   ],
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi",
@@ -50,7 +51,7 @@
         "IBM, Certified Data Analyst (2024)",
         "Microsoft, Azure AI Fundamentals [AI-900] (2024)",
         "Microsoft, Certified Power BI Data Analyst Associate [PL300] (Expected 2025)",
-        "Google, Foundations of Project Management  (Expected 2025)"
+        "Google, Foundations of Project Management (Expected 2025)"
       ],
       "title": "Certificates"
     },
@@ -63,8 +64,7 @@
     {
       "bullets": [
         "I enjoy participating in professional seminars and networking events to stay updated in my field and connect with like-minded professionals.",
-        "I enjoy tackling DIY projects every other weekend, whether it's around the house, working on my car, or tech-related fixes.",
-        "I love experimenting with fusion cooking for my friends, and family, creating unique dishes that blend different cuisines and flavors."
+        "I like tackling DIY projects every other weekend, whether it's around the house, working on my car, or tech-related fixes."
       ],
       "title": "Activities/Hobbies"
     }
@@ -89,7 +89,7 @@
       "title": "Analyst, Coordinator, Software Engineering"
     },
     {
-      "company": "Concentrix",
+      "company": "Concentrix Technologies",
       "description": "Developed strong problem-solving skills by creating, updating, and efficiently resolving IT support tickets for users with iOS, macOS devices, while exceeding SLA requirements by 12%.",
       "duration": "2020-2021",
       "title": "Technical Support Advisor"
@@ -98,33 +98,33 @@
   "skills": {
     "competent": [
       "MS SQL Server",
-      "VISIO",
+      "Azure AI Services",
       "Tableau, PowerBI",
       "Data ETL",
-      "Looker",
-      "Trello",
       "C# .NET",
-      "Documentation",
-      "Azure AI Services"
+      "Looker",
+      "VISIO",
+      "Trello",
+      "Documentation"
     ],
     "familiar": [
       "R",
-      "DAX",
-      "Firebase",
       "Snowflake",
       "JIRA",
+      "DAX",
+      "Firebase",
       "MS Project",
       "Technical Writing"
     ],
     "proficient": [
       "Python",
+      "Git",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Advanced Excel, PowerQuery",
       "Reporting",
       "Presentations",
-      "RDBMS/SQL",
-      "Advanced Excel, PowerQuery",
-      "Agile/Scrum",
-      "GIS Data",
-      "Git"
+      "GIS Data"
     ]
   },
   "summary": "I am a curious, detail-oriented, and enthusiastic professional with strong communication and collaboration skills. I enjoy taking on new challenges and solving business problems that drive meaningful impact and support organizational goals. Proficient in SQL, Python, Advanced Excel, Power BI, and other analytical tools, I analyze requirements, identify patterns, derive actionable insights, and recommend process improvements to support data-driven decision-making. Across my academic and professional experiences, I have contributed to cross-functional projects through leadership, stakeholder engagement, and adaptability in fast-paced environments."

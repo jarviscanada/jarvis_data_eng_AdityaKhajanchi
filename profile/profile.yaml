@@ -13,31 +13,31 @@ skills:
   # At least 5 skills
   proficient:
     - Python
+    - Git
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Advanced Excel, PowerQuery
     - Reporting
     - Presentations
-    - RDBMS/SQL
-    - Advanced Excel, PowerQuery
-    - Agile/Scrum
     - GIS Data
-    - Git
   # At least 5 skills
   competent:
     - MS SQL Server
-    - VISIO
+    - Azure AI Services
     - Tableau, PowerBI
     - Data ETL
-    - Looker
-    - Trello
     - C# .NET
+    - Looker
+    - VISIO
+    - Trello
     - Documentation
-    - Azure AI Services
   # At least 5 skills
   familiar:
     - R
-    - DAX
-    - Firebase
     - Snowflake
     - JIRA
+    - DAX
+    - Firebase
     - MS Project
     - Technical Writing
 
@@ -110,29 +110,30 @@ professional_experience:
       Liaised with internal and external project stakeholders to improve process efficiency.
       Maintained clear and concise documentation and user guides for knowledge transfer."
   - title: "Technical Support Advisor"
-    company: "Concentrix"
+    company: "Concentrix Technologies"
     duration: "2020-2021"
     description: "Developed strong problem-solving skills by creating, updating, and efficiently resolving IT support tickets for users with iOS, macOS devices, while exceeding SLA requirements by 12%."
 
 #List of education
 education: 
-  - school_name: "St. Clair College"
+  - school_name: "Zekelman School of Business, St. Clair College"
     duration: "2019-2020"
     degree: "Post-graduate Certificate"
-    department: "Data Analytics for Business"
+    department: "Data Analytics"
     # optional
     awards_achievements: 
       - "GPA: 3.8/4.0"
       - "Presented 'Rent Analysis & Municipal Services Call Analysis of Windsor City' Data Visualization project to ambassadors of Argentina, Chile, Ecuador, and Peru"
-      - "Class Representative, Student Council"
-  - school_name: "Ahmedabad University"
+      - "Class Representative, Student Council Member"
+  - school_name: "School of Computer Studies, Ahmedabad University"
     duration: "2015-2018"
     degree: "Bachelor of Computer Application"
-    department: "Computer Science"
+    department: "Computer Applications"
     awards_achievements:
       - "GPA: 3.5/4.0"
-      - "President, Tech Club"
+      - "President, Computer and Tech Club"
       - "President, Campus Events Committee"
+      - "Invitee, Student Council Member"
 
 #Optional section
 others:
@@ -143,12 +144,11 @@ others:
       - "IBM, Certified Data Analyst (2024)"
       - "Microsoft, Azure AI Fundamentals [AI-900] (2024)"
       - "Microsoft, Certified Power BI Data Analyst Associate [PL300] (Expected 2025)"
-      - "Google, Foundations of Project Management  (Expected 2025)"
+      - "Google, Foundations of Project Management (Expected 2025)"
   - title: "Awards"
     bullets:
       - "Winner, Best Data Visualization Project, St. Clair College (2019)"
   - title: "Activities/Hobbies"
     bullets:
       - "I enjoy participating in professional seminars and networking events to stay updated in my field and connect with like-minded professionals."
-      - "I enjoy tackling DIY projects every other weekend, whether it's around the house, working on my car, or tech-related fixes."
-      - "I love experimenting with fusion cooking for my friends, and family, creating unique dishes that blend different cuisines and flavors."
+      - "I like tackling DIY projects every other weekend, whether it's around the house, working on my car, or tech-related fixes."
