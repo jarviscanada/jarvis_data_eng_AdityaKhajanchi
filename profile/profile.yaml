@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AdityaKhaj
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I am a curious, detail-oriented, and enthusiastic individual with strong communication and collaboration skills. I enjoy taking on new challenges and solving problems that have a positive impact, ultimately driving team and organizational success. Proficient in SQL, Python, Advanced Excel, Power BI, and other tools, I identify patterns, derive actionable insights, optimize processes, and empower decision-making. Throughout my academic and work experiences, I have demonstrated leadership, collaboration, and stakeholder management while thriving in dynamic, fast-paced environments.
+summary: I am a curious, detail-oriented, and enthusiastic professional with strong communication and collaboration skills. I enjoy taking on new challenges and solving business problems that drive meaningful impact and support organizational goals. Proficient in SQL, Python, Advanced Excel, Power BI, and other analytical tools, I analyze requirements, identify patterns, derive actionable insights, and recommend process improvements to support data-driven decision-making. Across my academic and professional experiences, I have contributed to cross-functional projects through leadership, stakeholder engagement, and adaptability in fast-paced environments.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -16,21 +16,22 @@ skills:
     - Reporting
     - Presentations
     - RDBMS/SQL
-    - Advanced Excel
+    - Advanced Excel, PowerQuery
     - Agile/Scrum
     - Git
   # At least 5 skills
   competent:
-    - Tableau/PowerBI
     - MS SQL Server
     - VISIO
+    - Tableau, PowerBI
+    - Looker
     - Trello
     - Documentation
     - Azure AI Services
-    - IBM Cognos
   # At least 5 skills
   familiar:
     - R
+    - Firebase
     - Snowflake
     - JIRA
     - MS Project
@@ -70,10 +71,10 @@ highlighted_projects:
     #URL is optional
     git_url: "https://github.com/ANK002X/DA-Projects/blob/2489f63ced2365bece7fa054d2a22f3bf85444d4/PersonalProjects/4a_ChicagoCrimesDataVisualization%5BView_in_Browser%5D.ipynb"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Developed an interactive heatmap visualization of crime incidents, offering insights into high-crime areas and trends in Chicago."
+    description: "Developed an interactive Chicago crime heatmap dashboard using Dash and Plotly, allowing users to filter data by crime type, month, or view all available data. Leveraged real-time data from the City of Chicago's public API, utilizing Pandas for data manipulation and Plotly's density_mapbox for visualizing crime density on an interactive map. Implemented dynamic dropdowns, checklists, and callbacks to enable real-time filtering and updates. Integrated Mapbox for precise geographical mapping and customized the user interface with CSS for an enhanced user experience. The dashboard provides a comprehensive view of crime trends and hotspots across the city."
   - name: "Superstore Dashboard"
     git_url: "https://github.com/ANK002X/DA-Projects/blob/2489f63ced2365bece7fa054d2a22f3bf85444d4/PersonalProjects/2_SuperstoreDashboard.ipynb"
-    description: "Collaborated with a team of seven to analyze the Global Superstore dataset and create a dashboard visualizing key metrics, presenting findings to an audience of 70"
+    description: "Collaborated with a team of 7 to develop the Global Superstore Dashboard, an interactive data visualization tool aimed at providing in-depth insights into sales, profit, shipping, and customer segmentation for a global retail operation. Using Dash and Plotly, we built a dynamic dashboard that allows users to explore Year-to-Date (YTD) metrics, such as total sales, orders, and products sold, alongside key performance indicators like sales growth and shipping time. Leveraging Pandas for data processing, we incorporated advanced charts, including area charts, sunburst, funnel, and waterfall plots, to visually present trends, geographical distributions, and customer behavior. The dashboard also integrates dynamic filters, allowing users to select different report types and years for flexible data exploration. This project successfully delivered an intuitive platform for management to analyze real-time business performance and make informed decisions."
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
