@@ -32,7 +32,7 @@
     },
     {
       "description": "Collaborated with a team of 7 to develop the Global Superstore Dashboard, an interactive data visualization tool aimed at providing in-depth insights into sales, profit, shipping, and customer segmentation for a global retail operation. Using Dash and Plotly, we built a dynamic dashboard that allows users to explore Year-to-Date (YTD) metrics, such as total sales, orders, and products sold, alongside key performance indicators like sales growth and shipping time. Leveraging Pandas for data processing, we incorporated advanced charts, including area charts, sunburst, funnel, and waterfall plots, to visually present trends, geographical distributions, and customer behavior. The dashboard also integrates dynamic filters, allowing users to select different report types and years for flexible data exploration. This project successfully delivered an intuitive platform for management to analyze real-time business performance and make informed decisions.",
-      "git_url": "https://github.com/ANK002X/DA-Projects/blob/750f60b370b02b5b05f3597072e7143bf7eb3e04/1_TheGlobalSuperstore-Insights_Graphs.ipynb",
+      "git_url": "",
       "name": "Superstore Dashboard"
     }
   ],
