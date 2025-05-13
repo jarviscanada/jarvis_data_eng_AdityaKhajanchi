@@ -21,7 +21,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaKhaj
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/tree/master/springboot)]: Not Started
 
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/tree/master/python_data_anlytics)]: Not Started
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/tree/master/python_data_analytics)]: Not Started
 
 **Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/tree/master/hadoop)]: Not Started
 
@@ -38,9 +38,13 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaKhaj
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2025-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Software Developer, Jarvis (2025-present)**: This section is currently in progress. More content will be added soon. Thank you.
 
-**Data Analyst, Geopogo (2022-Present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Data Analyst, Geopogo (2022-Present)**: Collaborated to develop a Tableau dashboard displaying KPIs from 12+ data sources for stakeholders, including investors, senior management, and team leads. Implemented an ETL pipeline to semi-automate data transformation, reducing manual data entry by 50% and saving up to 5 hours weekly Streamlined data management for ZoneQuestAI by implementing batch imports/exports and scheduled backups in Firebase, enhancing process efficiency, data integrity, and accessibility Identified key usage and engagement trends that led to a 15% increase in engagement and 25% increase in organic growth through data-driven recommendations Contributed to the research, extraction, and implementation of GIS data from publicly available sources to integrate into the latest release
+
+**Analyst, Coordinator, Software Engineering , Architecttura Architects (2021-2022)**: Implemented an Excel productivity tracker for LiDAR scanning projects, reducing project turnaround time by 35% Developed and maintained a Power BI dashboard, presenting insights on operational efficiency and project timelines to senior management in weekly meetings Coordinated 25+ projects, managing initiatives over $10MM for The City of Windsor and $30MM for Ontario School Boards Liaised with internal and external project stakeholders to improve process efficiency Maintained clear and concise documentation and user guides for knowledge transfer
+
+**Technical Support Advisor, Concentrix (2020-2021)**: Developed strong problem-solving skills by creating, updating, and efficiently resolving IT support tickets for users with iOS, macOS devices, while exceeding SLA requirements by 12%
 
 
 ## Education

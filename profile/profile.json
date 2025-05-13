@@ -50,7 +50,7 @@
     },
     {
       "description": "",
-      "git_url": "/python_data_anlytics",
+      "git_url": "/python_data_analytics",
       "name": "Python Data Analytics"
     },
     {
@@ -95,15 +95,27 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
+      "description": "This section is currently in progress. More content will be added soon. Thank you.",
       "duration": "2025-present",
       "title": "Software Developer"
     },
     {
       "company": "Geopogo",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
+      "description": "Collaborated to develop a Tableau dashboard displaying KPIs from 12+ data sources for stakeholders, including investors, senior management, and team leads. Implemented an ETL pipeline to semi-automate data transformation, reducing manual data entry by 50% and saving up to 5 hours weekly Streamlined data management for ZoneQuestAI by implementing batch imports/exports and scheduled backups in Firebase, enhancing process efficiency, data integrity, and accessibility Identified key usage and engagement trends that led to a 15% increase in engagement and 25% increase in organic growth through data-driven recommendations Contributed to the research, extraction, and implementation of GIS data from publicly available sources to integrate into the latest release",
       "duration": "2022-Present",
       "title": "Data Analyst"
+    },
+    {
+      "company": "Architecttura Architects",
+      "description": "Implemented an Excel productivity tracker for LiDAR scanning projects, reducing project turnaround time by 35% Developed and maintained a Power BI dashboard, presenting insights on operational efficiency and project timelines to senior management in weekly meetings Coordinated 25+ projects, managing initiatives over $10MM for The City of Windsor and $30MM for Ontario School Boards Liaised with internal and external project stakeholders to improve process efficiency Maintained clear and concise documentation and user guides for knowledge transfer",
+      "duration": "2021-2022",
+      "title": "Analyst, Coordinator, Software Engineering "
+    },
+    {
+      "company": "Concentrix",
+      "description": "Developed strong problem-solving skills by creating, updating, and efficiently resolving IT support tickets for users with iOS, macOS devices, while exceeding SLA requirements by 12%",
+      "duration": "2020-2021",
+      "title": "Technical Support Advisor"
     }
   ],
   "skills": {
