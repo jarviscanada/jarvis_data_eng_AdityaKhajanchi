@@ -4,11 +4,11 @@ I am a curious, detail-oriented, and enthusiastic professional with strong commu
 
 ## Skills
 
-**Proficient:** Python, Reporting, Presentations, RDBMS/SQL, Advanced Excel, PowerQuery, Agile/Scrum, Git
+**Proficient:** Python, Reporting, Presentations, RDBMS/SQL, Advanced Excel, PowerQuery, Agile/Scrum, GIS Data, Git
 
-**Competent:** MS SQL Server, VISIO, Tableau, PowerBI, Looker, Trello, Documentation, Azure AI Services
+**Competent:** MS SQL Server, VISIO, Tableau, PowerBI, Data ETL, Looker, Trello, C# .NET, Documentation, Azure AI Services
 
-**Familiar:** R, Firebase, Snowflake, JIRA, MS Project, Technical Writing
+**Familiar:** R, DAX, Firebase, Snowflake, JIRA, MS Project, Technical Writing
 
 ## Jarvis Projects
 
@@ -16,18 +16,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaKhaj
 
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/tree/master/linux_sql)]: Developed an automated monitoring solution for the Linux Cluster Administration (LCA) team to track hardware specifications and real-time resource usage across Rocky Linux servers. Integrated Bash scripts with PostgreSQL to store data persistently, using Docker for containerized deployment and crontab for scheduled execution. Leveraged Git for version control and implemented a scalable system that supports performance analysis, reporting, and future capacity planning. Demonstrated proficiency in Linux system administration, scripting, database management, and DevOps practices.
-
-**In progress** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/tree/master/sql)]: In Progress
-
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/tree/master/python_data_analytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/tree/master/cloud_devops)]: Not Started
 
 
 ## Highlighted Projects
@@ -38,26 +26,33 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaKhaj
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2025-present)**: This section is currently in progress. More content will be added soon. Thank you.
+**Business Systems Analyst, Jarvis (2025-present)**: This section is currently in progress. More content will be added soon. Thank you.
 
-**Data Analyst, Geopogo (2022-Present)**: Collaborated to develop a Tableau dashboard displaying KPIs from 12+ data sources for stakeholders, including investors, senior management, and team leads. Implemented an ETL pipeline to semi-automate data transformation, reducing manual data entry by 50% and saving up to 5 hours weekly Streamlined data management for ZoneQuestAI by implementing batch imports/exports and scheduled backups in Firebase, enhancing process efficiency, data integrity, and accessibility Identified key usage and engagement trends that led to a 15% increase in engagement and 25% increase in organic growth through data-driven recommendations Contributed to the research, extraction, and implementation of GIS data from publicly available sources to integrate into the latest release
+**Data Analyst, Geopogo (2022-Present)**: Collaborated to develop a Tableau dashboard displaying KPIs from 12+ data sources for stakeholders, including investors, senior management, and team leads. Implemented an ETL pipeline to semi-automate data transformation, reducing manual data entry by 50% and saving up to 5 hours weekly. Streamlined data management for ZoneQuestAI by implementing batch imports/exports and scheduled backups in Firebase, enhancing process efficiency, data integrity, and accessibility. Identified key usage and engagement trends that led to a 15% increase in engagement and 25% increase in organic growth through data-driven recommendations. Contributed to the research, extraction, and implementation of GIS data from publicly available sources to integrate into the latest release.
 
-**Analyst, Coordinator, Software Engineering , Architecttura Architects (2021-2022)**: Implemented an Excel productivity tracker for LiDAR scanning projects, reducing project turnaround time by 35% Developed and maintained a Power BI dashboard, presenting insights on operational efficiency and project timelines to senior management in weekly meetings Coordinated 25+ projects, managing initiatives over $10MM for The City of Windsor and $30MM for Ontario School Boards Liaised with internal and external project stakeholders to improve process efficiency Maintained clear and concise documentation and user guides for knowledge transfer
+**Analyst, Coordinator, Software Engineering, Architecttura Architects (2021-2022)**: Implemented an Excel productivity tracker for LiDAR scanning projects, reducing project turnaround time by 35%. Developed and maintained a Power BI dashboard, presenting insights on operational efficiency and project timelines to senior management in weekly meetings. Coordinated 25+ projects, managing initiatives over $10MM for The City of Windsor and $30MM for Ontario School Boards. Liaised with internal and external project stakeholders to improve process efficiency. Maintained clear and concise documentation and user guides for knowledge transfer.
 
-**Technical Support Advisor, Concentrix (2020-2021)**: Developed strong problem-solving skills by creating, updating, and efficiently resolving IT support tickets for users with iOS, macOS devices, while exceeding SLA requirements by 12%
+**Technical Support Advisor, Concentrix (2020-2021)**: Developed strong problem-solving skills by creating, updating, and efficiently resolving IT support tickets for users with iOS, macOS devices, while exceeding SLA requirements by 12%.
 
 
 ## Education
 **St. Clair College (2019-2020)**, Post-graduate Certificate, Data Analytics for Business
 - GPA: 3.8/4.0
+- Presented 'Rent Analysis & Municipal Services Call Analysis of Windsor City' Data Visualization project to ambassadors of Argentina, Chile, Ecuador, and Peru
+- Class Representative, Student Council
 
 **Ahmedabad University (2015-2018)**, Bachelor of Computer Application, Computer Science
 - GPA: 3.5/4.0
+- President, Tech Club
+- President, Campus Events Committee
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player
-- Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- IBM, Certified Data Analyst (2024)
+- Microsoft, Azure AI Fundamentals [AI-900] (2024)
+- Microsoft, Certified Power BI Data Analyst Associate [PL300] (Expected 2025)
+- Google, Foundations of Project Management  (Expected 2025)
+- Winner, Best Data Visualization Project, St. Clair College (2019)
+- I enjoy participating in professional seminars and networking events to stay updated in my field and connect with like-minded professionals.
+- I enjoy tackling DIY projects every other weekend, whether it's around the house, working on my car, or tech-related fixes.
+- I love experimenting with fusion cooking for my friends, and family, creating unique dishes that blend different cuisines and flavors.
