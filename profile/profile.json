@@ -4,7 +4,7 @@
       "awards_achievements": [
         "GPA: 3.8/4.0",
         "Presented 'Rent Analysis \u0026 Municipal Services Call Analysis of Windsor City' Data Visualization project to ambassadors of Argentina, Chile, Ecuador, and Peru",
-        "Class Representative, Student Council Member"
+        "Class Representative, Student Council"
       ],
       "degree": "Post-graduate Certificate",
       "department": "Data Analytics",
@@ -16,7 +16,7 @@
         "GPA: 3.5/4.0",
         "President, Computer and Tech Club",
         "President, Campus Events Committee",
-        "Invitee, Student Council Member"
+        "Class Representative, Student Council"
       ],
       "degree": "Bachelor of Computer Application",
       "department": "Computer Applications",
@@ -27,7 +27,7 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi",
   "highlighted_projects": [
     {
-      "description": "Developed an interactive Chicago crime heatmap dashboard using Dash and Plotly, allowing users to filter data by crime type, month, or view all available data. Leveraged real-time data from the City of Chicago's public API, utilizing Pandas for data manipulation and Plotly's density_mapbox for visualizing crime density on an interactive map. Implemented dynamic dropdowns, checklists, and callbacks to enable real-time filtering and updates. Integrated Mapbox for precise geographical mapping and customized the user interface with CSS for an enhanced user experience. The dashboard provides a comprehensive view of crime trends and hotspots across the city.",
+      "description": "Developed an interactive Chicago crime heatmap dashboard using Dash and Plotly, allowing users to filter data by crime type, month, or view all available data. Leveraged real-time data from the City of Chicago's public SOD API, utilizing Pandas for data manipulation and Plotly's density_mapbox for visualizing crime density on an interactive map. Implemented dynamic dropdowns, checklists, and callbacks to enable real-time filtering and updates. Integrated Mapbox for precise geographical mapping and customized the user interface with CSS for an enhanced user experience. The dashboard provides a comprehensive view of crime trends and hotspots across the city.",
       "git_url": "https://github.com/ANK002X/DA-Projects/blob/2489f63ced2365bece7fa054d2a22f3bf85444d4/PersonalProjects/4a_ChicagoCrimesDataVisualization%5BView_in_Browser%5D.ipynb",
       "name": "Interactive Crime Map for Chicago"
     },
@@ -63,8 +63,9 @@
     },
     {
       "bullets": [
-        "I enjoy participating in professional seminars and networking events to stay updated in my field and connect with like-minded professionals.",
-        "I like tackling DIY projects every other weekend, whether it's around the house, working on my car, or tech-related fixes."
+        "I enjoy participating in professional seminars and networking events to stay updated in my field and connect with like-minded professionals, which helps me stay current with industry trends and continuously refine my communication and interpersonal skills.",
+        "I like tackling DIY projects every other weekend, whether it's around the house, working on my car, or tech-related fixes, as they sharpen my troubleshooting, creativity, and problem-solving abilities, skills I often carry into my professional work.",
+        "I love experimenting with fusion cooking for my friends and family, creating unique dishes that blend different cuisines and flavors. It has strengthened my patience, attention to detail, and flexibility while also teaching me how to improvise and create something great out of minimal resources."
       ],
       "title": "Activities/Hobbies"
     }
@@ -78,7 +79,7 @@
     },
     {
       "company": "Geopogo",
-      "description": "Collaborated to develop a Tableau dashboard displaying KPIs from 12+ data sources for stakeholders, including investors, senior management, and team leads. Implemented an ETL pipeline to semi-automate data transformation, reducing manual data entry by 50% and saving up to 5 hours weekly. Streamlined data management for ZoneQuestAI by implementing batch imports/exports and scheduled backups in Firebase, enhancing process efficiency, data integrity, and accessibility. Identified key usage and engagement trends that led to a 15% increase in engagement and 25% increase in organic growth through data-driven recommendations. Contributed to the research, extraction, and implementation of GIS data from publicly available sources to integrate into the latest release.",
+      "description": "Collaborated to develop a Tableau dashboard displaying KPIs from 12+ data sources for stakeholders, including investors, senior management, and team leads. Implemented an ETL pipeline to automate data transformation, reducing manual data entry by 50% and saving up to 5 hours weekly. Streamlined data management for ZoneQuestAI by implementing batch imports/exports and scheduled backups in Firebase, enhancing process efficiency, data integrity, and accessibility. Identified key usage and engagement trends that led to a 15% increase in engagement and 25% increase in organic growth through data-driven recommendations. Contributed to the research, extraction, and implementation of GIS data from publicly available sources to integrate into the latest release.",
       "duration": "2022-Present",
       "title": "Data Analyst"
     },
@@ -87,23 +88,20 @@
       "description": "Implemented an Excel productivity tracker for LiDAR scanning projects, reducing project turnaround time by 35%. Developed and maintained a Power BI dashboard, presenting insights on operational efficiency and project timelines to senior management in weekly meetings. Coordinated 25+ projects, managing initiatives over $10MM for The City of Windsor and $30MM for Ontario School Boards. Liaised with internal and external project stakeholders to improve process efficiency. Maintained clear and concise documentation and user guides for knowledge transfer.",
       "duration": "2021-2022",
       "title": "Analyst, Coordinator, Software Engineering"
-    },
-    {
-      "company": "Concentrix Technologies",
-      "description": "Developed strong problem-solving skills by creating, updating, and efficiently resolving IT support tickets for users with iOS, macOS devices, while exceeding SLA requirements by 12%.",
-      "duration": "2020-2021",
-      "title": "Technical Support Advisor"
     }
   ],
   "skills": {
     "competent": [
+      "Agile/Scrum",
+      "Python",
       "MS SQL Server",
+      "ETL",
       "Azure AI Services",
-      "Tableau, PowerBI",
-      "Data ETL",
+      "PowerBI",
       "C# .NET",
       "Looker",
-      "VISIO",
+      "Visio",
+      "GIS Data",
       "Trello",
       "Documentation"
     ],
@@ -112,20 +110,22 @@
       "Snowflake",
       "JIRA",
       "DAX",
+      "Keras",
+      "Tensorflow",
+      "OpenCV",
       "Firebase",
+      "JAVA",
       "MS Project",
       "Technical Writing"
     ],
     "proficient": [
-      "Python",
-      "Git",
-      "RDBMS/SQL",
-      "Agile/Scrum",
-      "Advanced Excel, PowerQuery",
+      "SQL",
+      "Tableau",
+      "Excel, PowerQuery",
       "Reporting",
       "Presentations",
-      "GIS Data"
+      "Git"
     ]
   },
-  "summary": "I am a curious, detail-oriented, and enthusiastic professional with strong communication and collaboration skills. I enjoy taking on new challenges and solving business problems that drive meaningful impact and support organizational goals. Proficient in SQL, Python, Advanced Excel, Power BI, and other analytical tools, I analyze requirements, identify patterns, derive actionable insights, and recommend process improvements to support data-driven decision-making. Across my academic and professional experiences, I have contributed to cross-functional projects through leadership, stakeholder engagement, and adaptability in fast-paced environments."
+  "summary": "I am a curious and enthusiastic Business Systems Analyst with strong communication and collaboration skills. I enjoy taking on new challenges and solving business problems that drive meaningful impact and support organizational goals. Utilized a combination of Excel, Python, and Tableau, and at Geopogo to automate data workflows, identify patterns, centralize analytics, and deliver strategic insights. Across my academic and professional experiences, I have contributed to cross-functional projects through leadership, stakeholder engagement, and adaptability in dynamic and fast-paced environments."
 }

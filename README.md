@@ -1,14 +1,14 @@
 # Aditya Khajanchi . Jarvis Consulting
 
-I am a curious, detail-oriented, and enthusiastic professional with strong communication and collaboration skills. I enjoy taking on new challenges and solving business problems that drive meaningful impact and support organizational goals. Proficient in SQL, Python, Advanced Excel, Power BI, and other analytical tools, I analyze requirements, identify patterns, derive actionable insights, and recommend process improvements to support data-driven decision-making. Across my academic and professional experiences, I have contributed to cross-functional projects through leadership, stakeholder engagement, and adaptability in fast-paced environments.
+I am a curious and enthusiastic Business Systems Analyst with strong communication and collaboration skills. I enjoy taking on new challenges and solving business problems that drive meaningful impact and support organizational goals. Utilized a combination of Excel, Python, and Tableau, and at Geopogo to automate data workflows, identify patterns, centralize analytics, and deliver strategic insights. Across my academic and professional experiences, I have contributed to cross-functional projects through leadership, stakeholder engagement, and adaptability in dynamic and fast-paced environments.
 
 ## Skills
 
-**Proficient:** Python, Git, RDBMS/SQL, Agile/Scrum, Advanced Excel, PowerQuery, Reporting, Presentations, GIS Data
+**Proficient:** SQL, Tableau, Excel, PowerQuery, Reporting, Presentations, Git
 
-**Competent:** MS SQL Server, Azure AI Services, Tableau, PowerBI, Data ETL, C# .NET, Looker, VISIO, Trello, Documentation
+**Competent:** Agile/Scrum, Python, MS SQL Server, ETL, Azure AI Services, PowerBI, C# .NET, Looker, Visio, GIS Data, Trello, Documentation
 
-**Familiar:** R, Snowflake, JIRA, DAX, Firebase, MS Project, Technical Writing
+**Familiar:** R, Snowflake, JIRA, DAX, Keras, Tensorflow, OpenCV, Firebase, JAVA, MS Project, Technical Writing
 
 ## Jarvis Projects
 
@@ -19,7 +19,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaKhaj
 
 
 ## Highlighted Projects
-**Interactive Crime Map for Chicago** [[GitHub](https://github.com/ANK002X/DA-Projects/blob/2489f63ced2365bece7fa054d2a22f3bf85444d4/PersonalProjects/4a_ChicagoCrimesDataVisualization%5BView_in_Browser%5D.ipynb)]: Developed an interactive Chicago crime heatmap dashboard using Dash and Plotly, allowing users to filter data by crime type, month, or view all available data. Leveraged real-time data from the City of Chicago's public API, utilizing Pandas for data manipulation and Plotly's density_mapbox for visualizing crime density on an interactive map. Implemented dynamic dropdowns, checklists, and callbacks to enable real-time filtering and updates. Integrated Mapbox for precise geographical mapping and customized the user interface with CSS for an enhanced user experience. The dashboard provides a comprehensive view of crime trends and hotspots across the city.
+**Interactive Crime Map for Chicago** [[GitHub](https://github.com/ANK002X/DA-Projects/blob/2489f63ced2365bece7fa054d2a22f3bf85444d4/PersonalProjects/4a_ChicagoCrimesDataVisualization%5BView_in_Browser%5D.ipynb)]: Developed an interactive Chicago crime heatmap dashboard using Dash and Plotly, allowing users to filter data by crime type, month, or view all available data. Leveraged real-time data from the City of Chicago's public SOD API, utilizing Pandas for data manipulation and Plotly's density_mapbox for visualizing crime density on an interactive map. Implemented dynamic dropdowns, checklists, and callbacks to enable real-time filtering and updates. Integrated Mapbox for precise geographical mapping and customized the user interface with CSS for an enhanced user experience. The dashboard provides a comprehensive view of crime trends and hotspots across the city.
 
 **Superstore Dashboard** [[GitHub](https://github.com/ANK002X/DA-Projects/blob/40af22f44b816dcf8926f9eab1e9fdd20caabe4b/PersonalProjects/1_TheGlobalSuperstore-Insights_Graphs.ipynb)]: Collaborated with a team of 7 to develop the Global Superstore Dashboard, an interactive data visualization tool aimed at providing in-depth insights into sales, profit, shipping, and customer segmentation for a global retail operation. Using Dash and Plotly, we built a dynamic dashboard that allows users to explore Year-to-Date (YTD) metrics, such as total sales, orders, and products sold, alongside key performance indicators like sales growth and shipping time. Leveraging Pandas for data processing, we incorporated advanced charts, including area charts, sunburst, funnel, and waterfall plots, to visually present trends, geographical distributions, and customer behavior. The dashboard also integrates dynamic filters, allowing users to select different report types and years for flexible data exploration. This project successfully delivered an intuitive platform for management to analyze real-time business performance and make informed decisions.
 
@@ -28,24 +28,22 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaKhaj
 
 **Business Systems Analyst, Jarvis (2025-present)**: This section is currently in progress. More content will be added soon. Thank you.
 
-**Data Analyst, Geopogo (2022-Present)**: Collaborated to develop a Tableau dashboard displaying KPIs from 12+ data sources for stakeholders, including investors, senior management, and team leads. Implemented an ETL pipeline to semi-automate data transformation, reducing manual data entry by 50% and saving up to 5 hours weekly. Streamlined data management for ZoneQuestAI by implementing batch imports/exports and scheduled backups in Firebase, enhancing process efficiency, data integrity, and accessibility. Identified key usage and engagement trends that led to a 15% increase in engagement and 25% increase in organic growth through data-driven recommendations. Contributed to the research, extraction, and implementation of GIS data from publicly available sources to integrate into the latest release.
+**Data Analyst, Geopogo (2022-Present)**: Collaborated to develop a Tableau dashboard displaying KPIs from 12+ data sources for stakeholders, including investors, senior management, and team leads. Implemented an ETL pipeline to automate data transformation, reducing manual data entry by 50% and saving up to 5 hours weekly. Streamlined data management for ZoneQuestAI by implementing batch imports/exports and scheduled backups in Firebase, enhancing process efficiency, data integrity, and accessibility. Identified key usage and engagement trends that led to a 15% increase in engagement and 25% increase in organic growth through data-driven recommendations. Contributed to the research, extraction, and implementation of GIS data from publicly available sources to integrate into the latest release.
 
 **Analyst, Coordinator, Software Engineering, Architecttura Architects (2021-2022)**: Implemented an Excel productivity tracker for LiDAR scanning projects, reducing project turnaround time by 35%. Developed and maintained a Power BI dashboard, presenting insights on operational efficiency and project timelines to senior management in weekly meetings. Coordinated 25+ projects, managing initiatives over $10MM for The City of Windsor and $30MM for Ontario School Boards. Liaised with internal and external project stakeholders to improve process efficiency. Maintained clear and concise documentation and user guides for knowledge transfer.
-
-**Technical Support Advisor, Concentrix Technologies (2020-2021)**: Developed strong problem-solving skills by creating, updating, and efficiently resolving IT support tickets for users with iOS, macOS devices, while exceeding SLA requirements by 12%.
 
 
 ## Education
 **Zekelman School of Business, St. Clair College (2019-2020)**, Post-graduate Certificate, Data Analytics
 - GPA: 3.8/4.0
 - Presented 'Rent Analysis & Municipal Services Call Analysis of Windsor City' Data Visualization project to ambassadors of Argentina, Chile, Ecuador, and Peru
-- Class Representative, Student Council Member
+- Class Representative, Student Council
 
 **School of Computer Studies, Ahmedabad University (2015-2018)**, Bachelor of Computer Application, Computer Applications
 - GPA: 3.5/4.0
 - President, Computer and Tech Club
 - President, Campus Events Committee
-- Invitee, Student Council Member
+- Class Representative, Student Council
 
 
 ## Miscellaneous
@@ -54,5 +52,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaKhaj
 - Microsoft, Certified Power BI Data Analyst Associate [PL300] (Expected 2025)
 - Google, Foundations of Project Management (Expected 2025)
 - Winner, Best Data Visualization Project, St. Clair College (2019)
-- I enjoy participating in professional seminars and networking events to stay updated in my field and connect with like-minded professionals.
-- I like tackling DIY projects every other weekend, whether it's around the house, working on my car, or tech-related fixes.
+- I enjoy participating in professional seminars and networking events to stay updated in my field and connect with like-minded professionals, which helps me stay current with industry trends and continuously refine my communication and interpersonal skills.
+- I like tackling DIY projects every other weekend, whether it's around the house, working on my car, or tech-related fixes, as they sharpen my troubleshooting, creativity, and problem-solving abilities, skills I often carry into my professional work.
+- I love experimenting with fusion cooking for my friends and family, creating unique dishes that blend different cuisines and flavors. It has strengthened my patience, attention to detail, and flexibility while also teaching me how to improvise and create something great out of minimal resources.
