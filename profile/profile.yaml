@@ -59,6 +59,14 @@ jarvis_projects:
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Developed an automated monitoring solution for the Linux Cluster Administration (LCA) team to track hardware specifications and real-time resource usage across Rocky Linux servers. Integrated Bash scripts with PostgreSQL to store data persistently, using Docker for containerized deployment and crontab for scheduled execution. Leveraged Git for version control and implemented a scalable system that supports performance analysis, reporting, and future capacity planning. Demonstrated proficiency in Linux system administration, scripting, database management, and DevOps practices."
+  - name: "BSA Fundamentals"
+    git_url: "/bsa"
+    description:
+      "Completed a hands-on Business Systems Analyst training project focused on two core deliverables. 
+      First, authored a comprehensive Business Requirements Document (BRD) for a Linux Cluster Monitoring Agent solution to support automated, real-time resource tracking across up to 100 Rocky Linux servers.
+      The BRD defined project scope, functional and non-functional requirements, stakeholder roles, and a cost-benefit analysis to guide development.
+      Second, conducted an in-depth interview with a business stakeholder to gather requirements for a stock trading application.
+      Based on the insights, developed a System Requirements Document (SRD) for the software development lead, clearly outlining business goals, functional specifications, user needs, and system behavior to support informed development planning."
 #  - name: "In progress"
 #    git_url: "/sql"
 #    description: "In Progress"
@@ -104,7 +112,13 @@ professional_experience:
     company: "Jarvis"
     duration: "2025-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "This section is currently in progress. More content will be added soon. Thank you."
+    description:
+      "Participated in the Business Systems Analyst stream of Jarvis's Talent Incubation (TIC) program, simulating real-world business environments.
+      Developed key competencies in business analysis, including requirements gathering, documentation, and stakeholder engagement.
+      Acquired technical skills in relational database management, cloud computing, Linux scripting, and Python programming.
+      Applied project management methodologies such as Agile, Scrum, Waterfall, and Kanban to manage deliverables in team-based scenarios.
+      Collaborated with cross-functional peers to solve business problems and deliver structured documentation under simulated workplace timelines.
+      Strengthened communication and critical thinking skills through iterative feedback and peer reviews."
   - title: "Data Analyst"
     company: "Geopogo"
     duration: "2022-Present"
