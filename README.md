@@ -37,12 +37,12 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaKhaj
 
 ## Education
 **Zekelman School of Business, St. Clair College (2019-2020)**, Post-graduate Certificate, Data Analytics
-- GPA: 3.8/4.0
+- GPA: 3.9/4.0
 - Presented 'Rent Analysis & Municipal Services Call Analysis of Windsor City' Data Visualization project to ambassadors of Argentina, Chile, Ecuador, and Peru
 - Class Representative, Student Council
 
 **School of Computer Studies, Ahmedabad University (2015-2018)**, Bachelor of Computer Application, Computer Applications
-- GPA: 3.5/4.0
+- GPA: 3.8/4.33
 - President, Computer and Tech Club
 - President, Campus Events Committee
 - Class Representative, Student Council
