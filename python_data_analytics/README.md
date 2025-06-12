@@ -12,7 +12,6 @@
 
 4\. [Improvements](#improvements) 
 
----
 
 ## Introduction
 
@@ -28,7 +27,6 @@ Jarvis Consulting was engaged to deliver a proof of concept (PoC). As the Data E
 
 The work was carried out in a Jupyter Notebook using Python libraries (Pandas, NumPy, SQLAlchemy) for ETL, Matplotlib and Seaborn for visualization, and Squarify for treemaps. A local PostgreSQL instance served as the data source for initial ingestion.
 
----
 
 ## Implementation
 
