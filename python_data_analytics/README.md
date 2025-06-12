@@ -36,7 +36,6 @@ The work was carried out in a Jupyter Notebook using Python libraries (Pandas, N
 
 The PoC environment remains isolated from LGS's Azure setup. Data ingestion occurs via a dumped SQL file (retail.sql) or CSV export. All processing and visualization are executed within a Jupyter Notebook, and the final notebook is delivered via GitHub.
 
-* * * * *
 
 ## **Data Analytics and Wrangling**
 
@@ -66,7 +65,6 @@ Refer notebook for code with full analysis and visualizations: [LGS - Data Analy
 -   Re-engage "At Risk" customers with win-back emails and special promo-codes.
 -   Design personalized campaigns based on purchase recency and frequency values.
 
-* * * * *
 
 ## **Improvements**
 
