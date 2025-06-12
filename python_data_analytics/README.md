@@ -34,7 +34,7 @@ The work was carried out in a Jupyter Notebook using Python libraries (Pandas, N
 
 ### Project Architecture
 
-Coming soon: system architecture diagram
+![LGS System Architecture Diagram](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/blob/c0f7971b65425ac06ed81ed9fc4980ffe8bb9356/assets/LGS-System-Archtiecture.png)
 
 The PoC environment remains isolated from LGS's Azure setup. Data ingestion occurs via a dumped SQL file (retail.sql) or CSV export. All processing and visualization are executed within a Jupyter Notebook, and the final notebook is delivered via GitHub.
 
