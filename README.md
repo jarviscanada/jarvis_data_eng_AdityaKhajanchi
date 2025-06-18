@@ -8,7 +8,7 @@ I am a curious and enthusiastic Business Systems Analyst with strong communicati
 
 **Competent:** Agile/Scrum, Python, MS SQL Server, ETL, Azure AI Services, PowerBI, C# .NET, Looker, Visio, GIS Data, Trello, Documentation
 
-**Familiar:** R, Snowflake, JIRA, DAX, Keras, Tensorflow, OpenCV, Firebase, JAVA, MS Project, Technical Writing
+**Familiar:** R, Snowflake, JIRA, DAX, Keras, TensorFlow, OpenCV, Firebase, JAVA, MS Project, Technical Writing
 
 ## Jarvis Projects
 
