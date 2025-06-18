@@ -45,7 +45,7 @@
     },
     {
       "description": "Completed a hands-on Business Systems Analyst training project focused on two core deliverables. First, authored a comprehensive Business Requirements Document (BRD) for a Linux Cluster Monitoring Agent solution to support automated, real-time resource tracking across up to 100 Rocky Linux servers. The BRD defined project scope, functional and non-functional requirements, stakeholder roles, and a cost-benefit analysis to guide development. Second, conducted an in-depth interview with a business stakeholder to gather requirements for a stock trading application. Based on the insights, developed a System Requirements Document (SRD) for the software development lead, clearly outlining business goals, functional specifications, user needs, and system behavior to support informed development planning.",
-      "git_url": "",
+      "git_url": "/bsa",
       "name": "BSA Fundamentals"
     },
     {
