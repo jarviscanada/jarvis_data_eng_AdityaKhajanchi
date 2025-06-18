@@ -78,8 +78,6 @@ Refer notebook for code with full analysis and visualizations: [LGS - Data Analy
 -   **Loyal Customers**: 1135
 -   **At Risk**: 749
 
-***
-
 **1. Need Attention Segment**
 
 -   **Recency**: 134 days since last purchase (avg)
