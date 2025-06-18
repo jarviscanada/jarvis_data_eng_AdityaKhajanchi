@@ -72,8 +72,9 @@ Refer notebook for code with full analysis and visualizations: [LGS - Data Analy
 
 ## **RFM Analysis - Conclusion**
 
-**Segments evaluated:** `Need Attention`, `Loyal Customers`, `At Risk` **Number of customers:**
+**Segments evaluated:** `Need Attention`, `Loyal Customers`, `At Risk` 
 
+**Number of customers in segment:**
 -   **Need Attention**: 265
 -   **Loyal Customers**: 1135
 -   **At Risk**: 749
