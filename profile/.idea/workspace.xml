@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb73e3d-59d7-4186-ad17-d094849bd150" name="Changes" comment="Corrected project description">
-      <change beforePath="$PROJECT_DIR$/profile.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/profile.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="bbb73e3d-59d7-4186-ad17-d094849bd150" name="Changes" comment="Corrected project description" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750276788061</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Corrected project description">
+      <option name="closed" value="true" />
+      <created>1750276831998</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1750276831998</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
