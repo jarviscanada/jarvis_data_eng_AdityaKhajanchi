@@ -22,7 +22,7 @@ A Static sales dataset with Coca-Cola beverage sales across U.S. states.
 - **Sales by States HeatMap**: Geographical breakdown of sales distribution across U.S. regions.
 
 **Constraints**:
-- Data is static and limited to a single year (Jan-Dec 2022).
+- Data is static and limited to a single year (Jan–Dec 2022).
 - Operating Profit insights are based on limited attributes and may not include marketing or logistics variables.
 
 **Future Improvements**:
@@ -79,7 +79,7 @@ Designed for individual investors, finance analysts, and portfolio managers who 
 **Data Sources**:
 - Alpha Vantage API (`TIME_SERIES_DAILY`, `OVERVIEW`, and `EARNINGS_CALENDAR`)
 - Real-time JSON data transformed via Power Query (M Language)
-- Company logos dynamically loaded using the [Clearbit Logo API](https://clearbit.com/logo)
+- Company logos dynamically loaded using the [Logo.dev API](https://www.logo.dev/)
 
 **Key Features**:
 -  **Time Period Slicer** with custom logic and DAX measures to change the chart date range (1mo to 5yr, MAX)
