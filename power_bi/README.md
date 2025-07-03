@@ -102,4 +102,3 @@ Designed for individual investors, finance analysts, and portfolio managers who 
 - Make it **mobile-responsive** for easier review on tablets or phones.
 - Include **automated daily refresh** and scheduled snapshot sharing via email.
 - Add **explanation tooltips** for key ratios so that even non-finance users understand them.
-
