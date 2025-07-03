@@ -46,7 +46,7 @@ The report is designed to help recruiters, HR professionals, and aspiring data p
 - Excel-based dataset titled **Data Professional Survey**
 - Transformed data using Power BI's Power Query Editor (e.g., blank rows removed, fields renamed, changed column data types)
 
-> [Data Professionals Survey 2022.xlsx](power_bi/Data-Professionals-Survey-Dashboard/data/Data-Professionals-Survey-2022.xlsx "Link to Coca-Cola Sales Dataset")
+> [Data Professionals Survey 2022.xlsx](Data-Professionals-Survey-Dashboard/data/Data-Professionals-Survey-2022.xlsx "Link to Coca-Cola Sales Dataset")
 
 
 **Key Features**:
