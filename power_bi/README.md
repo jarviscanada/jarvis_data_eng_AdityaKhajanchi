@@ -13,7 +13,7 @@ Designed for sales managers and executives to:
 **Data Source**:  
 A Static sales dataset with Coca-Cola beverage sales across U.S. states.
 
->[Coca-Cola Sales Dataset.xlsx](/Coca-cola_Sales_Dashboard/data/Coca-Cola_Sales.xlsx "Link to Coca-Cola Sales Dataset")
+>[Coca-Cola Sales Dataset.xlsx](power_bi/Coca-cola-Sales-Dashboard/data/Coca-Cola-Sales.xlsx "Link to Coca-Cola Sales Dataset")
 
 **Key Features**:
 - **Sales Metrics Table**: Shows Total Sales, Units Sold, Average Price per Unit, Operating Profit, and Operating Margin by brand.
