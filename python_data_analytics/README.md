@@ -2,15 +2,15 @@
 
 ## Table of Contents
 
-1\. [Introduction](#introduction) 
+1\. [Introduction](#introduction)
 
-2\. [Implementation](#implementation) 
+2\. [Implementation](#implementation)
 
-   a\. [Project Architecture](#project-architecture) 
+   a\. [Project Architecture](#project-architecture)
 
-3\. [Data Analytics and Wrangling](#data-analytics-and-wrangling) 
+3\. [Data Analytics and Wrangling](#data-analytics-and-wrangling)
 
-4\. [Improvements](#improvements) 
+4\. [Improvements](#improvements)
 
 
 ## Introduction
@@ -60,10 +60,52 @@ Refer notebook for code with full analysis and visualizations: [LGS - Data Analy
    -   Mapped score patterns to named segments (e.g., "Champions," "At Risk," "Need Attention").
    -   Visualized segment distribution using bar charts and a treemap for high-level overview.
 
+![RFM Chart Of LGS Customers](https://github.com/jarviscanada/jarvis_data_eng_AdityaKhajanchi/blob/553e27a717bc635d51db0c6e3d4d3de4461a732a/assets/lgs_rfm_chart.png)
+
+
+
 **By leveraging these analytics, the LGS marketing team can:**
 -   Target "Champions" with VIP promotions to make them feel valued.
 -   Re-engage "At Risk" customers with win-back emails and special promo-codes.
 -   Design personalized campaigns based on purchase recency and frequency values.
+
+
+## **RFM Analysis - Conclusion**
+
+**Segments evaluated:** `Need Attention`, `Loyal Customers`, `At Risk` 
+
+**Number of customers in segment:**
+-   **Need Attention**: 265
+-   **Loyal Customers**: 1135
+-   **At Risk**: 749
+
+**1. Need Attention Segment**
+
+-   **Recency**: 134 days since last purchase (avg)
+-   **Frequency**: 3.6 purchases (avg)
+-   **Monetary**: £903 spent (avg)
+
+**Conclusion:** Customers show moderate engagement but haven't purchased recently. Use personalized reminders, product recommendations, or limited-time deals to bring them back.
+
+
+
+**2. Loyal Customers Segment**
+
+-   **Recency**: 88 days since last purchase (avg)
+-   **Frequency**: 9.4 purchases (avg)
+-   **Monetary**: £4484 spent (avg)
+
+**Conclusion:** These are high-value and frequent shoppers. Maintain loyalty with rewards programs, early access to new arrivals, or exclusive VIP offers.
+
+
+
+**3. At Risk Segment**
+
+-   **Recency**: 400 days since last purchase (avg)
+-   **Frequency**: 3.6 purchases (avg)
+-   **Monetary**: £1243 spent (avg)
+
+**Conclusion:** Customers have lapsed and are at risk of churn. Reactivate them using personalized promo codes, win-back emails, and bundles based on their purchase history.
 
 
 ## **Improvements**
