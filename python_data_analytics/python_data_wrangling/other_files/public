@@ -1,0 +1,91 @@
+postgres=# \l
+\q
+git branch
+\q
+\l
+\q
+psql -h 172.17.0.2 -p 5432 -U postgres
+psql -h 172.17.0.2 -p 5432 -U USER_NAME -d postgres
+psql -h 172.17.0.2 -p 5432 -U postgres -d postgres
+\q
+\q
+\l
+CREATE DATABASE host_agent;
+\l
+\c host_agent
+\l
+\c host_agent
+id,hostname,cpu_number,cpu_arch,cpu_model,cpu_mhz,L2_cache,total_mem,timestamp
+\l
+CREATE TABLE PUBLIC.host_info 
+  ( 
+     id               SERIAL NOT NULL, 
+     hostname         VARCHAR NOT NULL, 
+     cpu_number       INT2 NOT NULL, 
+     cpu_architecture VARCHAR NOT NULL, 
+     cpu_model        VARCHAR NOT NULL, 
+     cpu_mhz          FLOAT8 NOT NULL, 
+     l2_cache         INT4 NOT NULL, 
+     "timestamp"      TIMESTAMP NULL, 
+     total_mem        INT4 NULL, 
+     CONSTRAINT host_info_pk PRIMARY KEY (id), 
+     CONSTRAINT host_info_un UNIQUE (hostname) 
+  );
+CREATE TABLE PUBLIC.host_info(id SERIAL NOT NULL,hostname VARCHAR NOT NULL,cpu_number INT2 NOT NULL,cpu_architecture VARCHAR NOT NULL,cpu_model VARCHAR NOT NULL,cpu_mhz FLOAT8 NOT NULL,l2_cache INT4 NOT NULL,"timestamp" TIMESTAMP NULL, total_mem INT4 NULL, CONSTRAINT host_info_pk PRIMARY KEY (id), CONSTRAINT host_info_un UNIQUE (hostname));
+\dt
+\d host_info
+\d
+\d
+\dt
+\ds
+\help
+-help
+\h
+DROP TABLE host_info
+\d
+\dt
+DROP TABLE PUBLIC.host_info
+\dt
+\d
+DROP TABLE PUBLIC.host_info;
+DROP TABLE PUBLIC.host_info;
+DROP TABLE PUBLIC.host_info;
+CREATE TABLE PUBLIC.host_info(id SERIAL NOT NULL, 
+\d
+\q
+\l
+\c host_agent
+\dt
+\d
+\dt
+select name from dt
+;
+select table_name from information_schema.tables;
+select table_name from tables;
+select table_name from information_schema.tables where table_schema='public';
+\q
+\c
+\l
+\c host_agent
+\l
+\dt
+\q
+\l
+\c postgres
+\dt
+\d
+\ds
+\l
+CREATE DATABASE temp;
+\l
+\q
+select * from host_usage;
+select * from host_usage
+select * from host_usage;
+select * from host_usage
+select * from host_usage;
+select * from host_usage;
+\d
+\dt
+\c public
+\s public

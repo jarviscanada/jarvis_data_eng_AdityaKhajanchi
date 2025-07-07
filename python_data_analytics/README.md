@@ -10,6 +10,8 @@
 
 3\. [Data Analytics and Wrangling](#data-analytics-and-wrangling)
 
+4\. [RFM Analysis - Conclusion](#RFM-Analysis---Conclusion)
+
 4\. [Improvements](#improvements)
 
 
