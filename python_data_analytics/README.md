@@ -12,7 +12,7 @@
 
 4\. [RFM Analysis - Conclusion](#RFM-Analysis---Conclusion)
 
-4\. [Improvements](#improvements)
+5\. [Improvements](#improvements)
 
 
 ## Introduction

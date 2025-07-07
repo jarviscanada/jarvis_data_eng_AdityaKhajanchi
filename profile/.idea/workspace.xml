@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb73e3d-59d7-4186-ad17-d094849bd150" name="Changes" comment="Fixed links">
-      <change beforePath="$PROJECT_DIR$/profile.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/profile.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="bbb73e3d-59d7-4186-ad17-d094849bd150" name="Changes" comment="Corrected project description" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,22 +24,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/rocky/dev/jarvis_data_eng_AdityaKhajanchi/profile",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/rocky/dev/jarvis_data_eng_AdityaKhajanchi/profile&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -210,7 +208,55 @@
       <option name="project" value="LOCAL" />
       <updated>1750272667366</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Fixed links">
+      <option name="closed" value="true" />
+      <created>1750272733094</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1750272733094</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Updated profile summary section at the top">
+      <option name="closed" value="true" />
+      <created>1750274482377</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1750274482377</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Corrected project description">
+      <option name="closed" value="true" />
+      <created>1750276328683</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1750276328683</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Corrected project description">
+      <option name="closed" value="true" />
+      <created>1750276620928</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1750276620928</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Corrected project description">
+      <option name="closed" value="true" />
+      <created>1750276788061</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1750276788061</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Corrected project description">
+      <option name="closed" value="true" />
+      <created>1750276831998</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1750276831998</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +275,8 @@
     <MESSAGE value="Updated: jarvis_projects: Added content in bsa project; professional_experience: Added content in Jarvis" />
     <MESSAGE value="Updated: education: corrected GPA for SCC, SCS, AU" />
     <MESSAGE value="Fixed links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed links" />
+    <MESSAGE value="Updated profile summary section at the top" />
+    <MESSAGE value="Corrected project description" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected project description" />
   </component>
 </project>
