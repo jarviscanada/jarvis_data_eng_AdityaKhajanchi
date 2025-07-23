@@ -20,6 +20,7 @@ skills:
   proficient:
     - SQL
     - Tableau
+    - PowerBI
     - Excel, PowerQuery
     - Reporting
     - Presentations
@@ -28,13 +29,12 @@ skills:
   competent:
     - Agile/Scrum
     - Python
+    - Hadoop
     - MS SQL Server
     - ETL
-    - Azure AI Services
-    - PowerBI
-    - C# .NET
     - Looker
     - Visio
+    - Azure AI Services
     - GIS Data
     - Trello
     - Documentation
@@ -43,7 +43,6 @@ skills:
     - R
     - Snowflake
     - JIRA
-    - DAX
     - Keras
     - TensorFlow
     - OpenCV

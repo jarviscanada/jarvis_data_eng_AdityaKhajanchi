@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ba2753-ce75-44a4-82e3-3c9e5d012d23" name="Changes" comment="Added Hadoop project" />
+    <list default="true" id="d0ba2753-ce75-44a4-82e3-3c9e5d012d23" name="Changes" comment="Added Hadoop project">
+      <change beforePath="$PROJECT_DIR$/profile/profile.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/profile/profile.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +32,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -79,7 +84,7 @@
       <workItem from="1753288038632" duration="86000" />
       <workItem from="1753288128986" duration="1943000" />
       <workItem from="1753290283730" duration="54000" />
-      <workItem from="1753290400870" duration="3112000" />
+      <workItem from="1753290400870" duration="4077000" />
     </task>
     <task id="LOCAL-00001" summary="Added Power BI Project">
       <option name="closed" value="true" />
@@ -121,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753297338618</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Hadoop project">
+      <option name="closed" value="true" />
+      <created>1753297925107</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753297925107</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
