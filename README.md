@@ -4,11 +4,11 @@ I am a curious and enthusiastic Business Systems Analyst with strong communicati
 
 ## Skills
 
-**Proficient:** SQL, Tableau, Excel, PowerQuery, Reporting, Presentations, Git
+**Proficient:** SQL, Tableau, PowerBI, Excel, PowerQuery, Reporting, Presentations, Git
 
-**Competent:** Agile/Scrum, Python, MS SQL Server, ETL, Azure AI Services, PowerBI, C# .NET, Looker, Visio, GIS Data, Trello, Documentation
+**Competent:** Agile/Scrum, Python, Hadoop, MS SQL Server, ETL, Looker, Visio, Azure AI Services, GIS Data, Trello, Documentation
 
-**Familiar:** R, Snowflake, JIRA, DAX, Keras, TensorFlow, OpenCV, Firebase, JAVA, MS Project, Technical Writing
+**Familiar:** R, Snowflake, JIRA, Keras, TensorFlow, OpenCV, Firebase, JAVA, MS Project, Technical Writing
 
 ## Jarvis Projects
 
@@ -36,7 +36,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaKhaj
 
 ## Professional Experiences
 
-**Business Systems Analyst, Jarvis (2025-present)**: Participated in the Business Systems Analyst stream of Jarvis's Talent Incubation (TIC) program, simulating real-world business environments. Developed key competencies in business analysis, including requirements gathering, documentation, and stakeholder engagement. Acquired technical skills in relational database management, cloud computing, Linux scripting, and Python programming. Applied project management methodologies such as Agile, Scrum, Waterfall, and Kanban to manage deliverables in team-based scenarios. Collaborated with cross-functional peers to solve business problems and deliver structured documentation under simulated workplace timelines. Strengthened communication and critical thinking skills through iterative feedback and peer reviews.
+**Business Systems Analyst, Jarvis (2025-present)**: Participated in the Business Systems Analyst stream of Jarvis's Talent Incubation (TIC) program, simulating real-world business environments. Developed key competencies in business analysis, including requirements gathering, documentation, and stakeholder engagement. Acquired technical skills in relational database management, cloud computing, Linux scripting, Python programming, PowerBI and Hadoop Distributed File Systems. Applied project management methodologies such as Agile, Scrum, Waterfall, and Kanban to manage deliverables in team-based scenarios. Collaborated with cross-functional peers to solve business problems and deliver structured documentation under simulated workplace timelines. Strengthened communication and critical thinking skills through iterative feedback and peer reviews.
 
 **Data Analyst, Geopogo (2022-Present)**: Collaborated to develop a Tableau dashboard displaying KPIs from 12+ data sources for stakeholders, including investors, senior management, and team leads. Implemented an ETL pipeline to automate data transformation, reducing manual data entry by 50% and saving up to 5 hours weekly. Streamlined data management for ZoneQuestAI by implementing batch imports/exports and scheduled backups in Firebase, enhancing process efficiency, data integrity, and accessibility. Identified key usage and engagement trends that led to a 15% increase in engagement and 25% increase in organic growth through data-driven recommendations. Contributed to the research, extraction, and implementation of GIS data from publicly available sources to integrate into the latest release.
 
