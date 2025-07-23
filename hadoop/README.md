@@ -1,20 +1,20 @@
 ## Table of Contents
 - [1 Introduction](#1-introduction)
-  - [A. Purpose of this project](#purpose-of-this-project)
-  - [B. Learning and evaluation](#learning-and-evaluation)
-  - [C. Hadoop cluster, tools, and the Hive project](#hadoop-cluster-tools-and-the-hive-project)
+  - [Purpose of this project](#purpose-of-this-project)
+  - [Learning and evaluation](#learning-and-evaluation)
+  - [Hadoop cluster, tools, and the Hive project](#hadoop-cluster-tools-and-the-hive-project)
 - [2. Hadoop Cluster](#2-hadoop-cluster)
-  - [A. Cluster architecture diagram](#cluster-architecture-diagram)
-  - [B. Hardware Specifications](#hardware-specifications)
-  - [C. Cluster Architecture (Master Node, Worker Nodes)](#cluster-architecture-master-node-worker-nodes)
-  - [D. Core components from the Hadoop ecosystem](#core-components-from-the-hadoop-ecosystem)
-  - [E. Big data tools](#big-data-tools)
+  - [Cluster architecture diagram](#cluster-architecture-diagram)
+  - [Hardware Specifications](#hardware-specifications)
+  - [Cluster Architecture (Master Node, Worker Nodes)](#cluster-architecture-master-node-worker-nodes)
+  - [Core components from the Hadoop ecosystem](#core-components-from-the-hadoop-ecosystem)
+  - [Big data tools](#big-data-tools)
 - [3. Hive Project](#3-hive-project)
-  - [A. Performance Tuning in Hive](#performance-tuning-in-hive)
-  - [B. Zeppelin Notebook screenshot here](#zeppelin-notebook-screenshot-here)
+  - [Performance Tuning in Hive](#performance-tuning-in-hive)
+  - [Zeppelin Notebook](#Zeppelin-notebook)
 - [4. Improvements](#4-improvements)
-  - [A. Key Improvements Implemented](#key-improvements-implemented)
-  - [B. Future Improvements](#future-improvements)
+  - [Key Improvements Implemented](#key-improvements-implemented)
+  - [Future Improvements](#future-improvements)
 
 ## 1. Introduction
 ### Purpose of this project
@@ -79,7 +79,9 @@ For ranking GDP growth by country, `Window Functions` were used with Hive on `Pa
 - Data size reduction: `Parquet (263 MB)` vs `CSV (1.7 GB)` allowed faster reads.
 - Optimized query paths using `Tez` and `HiveQL` led to stable and predictable performance even for complex queries.
 
-### Zeppelin Notebook screenshot here
+### Zeppelin Notebook
+[Zeppelin-notebook.ipynb]()
+
 [Zeppelin-notebook-screenshot]()
 
 ## 4. Improvements
