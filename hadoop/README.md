@@ -64,13 +64,13 @@ The key big data tools evaluated during the project:
 
 ## 3. Hive Project
 ### Performance Tuning in Hive
-At the start of the Hive project, queries were executed on data stored in `Google Storage (GS)` using a plain `CSV` table (`wdi_gs`). To improve efficiency, the data was copied into `HDFS` using the `wdi_csv_text` table. However, queries like `SELECT COUNT(countryName)` on this table still required full scans of the dataset and took ~2836 seconds depending on caching. A comparison with `Bash` revealed that `Hive` was 20 seconds slower (`Hive: 37s` vs `Bash: 17s`) due to Hive's overheadSQL parsing, metastore lookups, and job execution via `MapReduce` or `Tez`.
+At the start of the Hive project, queries were executed on data stored in `Google Storage (GS)` using a plain `CSV` table (`wdi_gs`). To improve efficiency, the data was copied into `HDFS` using the `wdi_csv_text` table. However, queries like `SELECT COUNT(countryName)` on this table still required full scans of the dataset and took ~28-36 seconds depending on caching. A comparison with `Bash` revealed that `Hive` was 20 seconds slower (`Hive: 37s` vs `Bash: 17s`) due to Hive's overhead: SQL parsing, metastore lookups, and job execution via `MapReduce` or `Tez`.
 
 Initial queries also showed malformed values in the `indicatorCode` column. To debug, a single-column table (`wdi_gs_debug`) was created to inspect raw rows. This led to using `OpenCSVSerde` for better handling of quoted strings and delimiters, creating a new table `wdi_opencsv_gs`. While this resolved parsing problems, queries on `wdi_opencsv_text` (loaded into `HDFS`) were significantly slower (`1m 19s` vs `23s` on `wdi_csv_text`) because `OpenCSVSerde` introduces extra parsing overhead.
 
 The query for 2015 GDP Growth (Canada) was slow because Hive scanned the entire dataset. To address this, a partitioned table (`wdi_opencsv_text_partitions`) was created with year-based partitions. This reduced query time from `1m 35s` to just `2s`, as Hive only scanned the relevant partition instead of the entire dataset.
 
-To further enhance performance, data was stored in `Parquet` format (`wdi_csv_parquet`). `Parquet` reduced the dataset size from `1.7 GB (CSV)` to just `263 MB`, while also enabling column pruning and efficient compression. Queries on `Parquet` were 34x faster (e.g., `SELECT COUNT(countryName)` ran in `21s` on `Parquet` vs `1m 22s` on `CSV`).
+To further enhance performance, data was stored in `Parquet` format (`wdi_csv_parquet`). `Parquet` reduced the dataset size from `1.7 GB (CSV)` to just `263 MB`, while also enabling column pruning and efficient compression. Queries on `Parquet` were 3-4x faster (e.g., `SELECT COUNT(countryName)` ran in `21s` on `Parquet` vs `1m 22s` on `CSV`).
 
 For ranking GDP growth by country, `Window Functions` were used with Hive on `Parquet`, achieving a `27-second runtime` compared to `2.5 minutes` on the raw `CSV`. Switching to `Tez` as the execution engine significantly improved performance by reducing the overhead of job execution. `SparkSQL` was also tested for comparison, but `Hive on Parquet with Tez` proved efficient for most analytical queries.
 
@@ -91,14 +91,14 @@ Initially, queries were executed directly on `Google Storage (GS)`, which caused
 Queries filtering by specific years (e.g., 2015 GDP Growth) previously scanned the entire dataset. Introducing year-based partitions in `wdi_opencsv_text_partitions` minimized data scanning and reduced query time from `1m 35s` to `2s`.
 
 **Columnar Storage with Parquet**  
-Converting data from raw `CSV` to `Parquet` format reduced file size from `1.7 GB` to `263 MB` and enabled faster reads by allowing column pruning and compression, resulting in 34x faster queries.
+Converting data from raw `CSV` to `Parquet` format reduced file size from `1.7 GB` to `263 MB` and enabled faster reads by allowing column pruning and compression, resulting in 3-4x faster queries.
 
 ### Future Improvements
 **Add Table Statistics (`ANALYZE TABLE`)**  
-Computing statistics on tables (row count, column cardinality, data distribution) helps Hives query optimizer choose efficient execution plans.
+Computing statistics on tables (row count, column cardinality, data distribution) helps Hive's query optimizer choose efficient execution plans.
 
 **Use ORC File Format (`ORC`)**  
 `ORC` provides better compression and faster reads than `Parquet` or `CSV`, making queries significantly faster and reducing storage usage.
 
 **Implement Cost-Based Optimization (`CBO`)**  
-Enabling Hives `CBO` allows the optimizer to use table statistics to evaluate query costs, improving join order, partition pruning, and overall performance.
+Enabling Hive's `CBO` allows the optimizer to use table statistics to evaluate query costs, improving join order, partition pruning, and overall performance.
