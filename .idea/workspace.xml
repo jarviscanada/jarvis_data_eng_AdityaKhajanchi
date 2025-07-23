@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ba2753-ce75-44a4-82e3-3c9e5d012d23" name="Changes" comment="" />
+    <list default="true" id="d0ba2753-ce75-44a4-82e3-3c9e5d012d23" name="Changes" comment="Fixed project links">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,23 +60,10 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="jarvis_data_eng_AdityaKhajanchi" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="jarvis_data_eng_AdityaKhajanchi" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d0ba2753-ce75-44a4-82e3-3c9e5d012d23" name="Changes" comment="" />
@@ -90,10 +80,38 @@
       <workItem from="1753287903537" duration="72000" />
       <workItem from="1753287991776" duration="43000" />
       <workItem from="1753288038632" duration="86000" />
+      <workItem from="1753288128986" duration="1943000" />
+      <workItem from="1753290283730" duration="54000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Power BI Project">
+      <option name="closed" value="true" />
+      <created>1753289660555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753289660555</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixed project links">
+      <option name="closed" value="true" />
+      <created>1753289958582</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753289958582</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Power BI Project" />
+    <MESSAGE value="Fixed project links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed project links" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -54,6 +54,11 @@
       "name": "BSA Fundamentals"
     },
     {
+      "description": "Developed a PostgreSQL-based SQL project to practice and master core and advanced SQL concepts, including DDL, DML, DQL, joins, subqueries, aggregate functions, string manipulation, and window functions. Designed and worked with a sample relational database comprising three interrelated tables (members, facilities, bookings) initialized via a Dockerized PostgreSQL environment. Implemented hands-on exercises such as modifying data, generating insights with complex queries, ranking data using window functions, and performing advanced aggregations (e.g., monthly booking trends, top facility usage). The project demonstrated practical problem-solving using real-world scenarios (e.g., member recommendations, booking patterns), while solidifying knowledge of query optimization, data transformations, and PostgreSQL functions.",
+      "git_url": "/sql",
+      "name": "SQL Project: Database Design \u0026 Advanced Querying"
+    },
+    {
       "description": "Developed an automated monitoring solution for the Linux Cluster Administration (LCA) team to track hardware specifications and real-time resource usage across Rocky Linux servers. Integrated Bash scripts with PostgreSQL to store data persistently, using Docker for containerized deployment and crontab for scheduled execution. Leveraged Git for version control and implemented a scalable system that supports performance analysis, reporting, and future capacity planning. Demonstrated proficiency in Linux system administration, scripting, database management, and DevOps practices.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"

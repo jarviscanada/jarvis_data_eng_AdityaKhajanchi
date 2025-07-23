@@ -68,6 +68,11 @@ jarvis_projects:
       The BRD defined project scope, functional and non-functional requirements, stakeholder roles, and a cost-benefit analysis to guide development.
       Second, conducted an in-depth interview with a business stakeholder to gather requirements for a stock trading application.
       Based on the insights, developed a System Requirements Document (SRD) for the software development lead, clearly outlining business goals, functional specifications, user needs, and system behavior to support informed development planning."
+
+  - name: "SQL Project: Database Design & Advanced Querying"
+    git_url: "/sql"
+    description: "Developed a PostgreSQL-based SQL project to practice and master core and advanced SQL concepts, including DDL, DML, DQL, joins, subqueries, aggregate functions, string manipulation, and window functions. Designed and worked with a sample relational database comprising three interrelated tables (members, facilities, bookings) initialized via a Dockerized PostgreSQL environment. Implemented hands-on exercises such as modifying data, generating insights with complex queries, ranking data using window functions, and performing advanced aggregations (e.g., monthly booking trends, top facility usage). The project demonstrated practical problem-solving using real-world scenarios (e.g., member recommendations, booking patterns), while solidifying knowledge of query optimization, data transformations, and PostgreSQL functions."
+
   - name: "Cluster Monitor"
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
