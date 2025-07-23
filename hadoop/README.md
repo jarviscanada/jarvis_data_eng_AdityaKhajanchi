@@ -16,7 +16,7 @@
   - [A. Key Improvements Implemented](#key-improvements-implemented)
   - [B. Future Improvements](#future-improvements)
 
-## 1 Introduction
+## 1. Introduction
 ### Purpose of this project
 This project evaluates `Apache Hadoop` as a scalable alternative to legacy data analytics platforms such as SAP and R. The project involves provisioning a `Hadoop cluster` on `Google Cloud Platform (GCP)`. It examines the functionality of key components such as `HDFS` for distributed storage, `YARN` for resource coordination, and `MapReduce` for batch processing. The project demonstrates how big data platforms can be configured to efficiently manage high-volume workloads and establishes a foundation for comparing performance, query strategies, and optimization techniques in distributed data environments.
 
