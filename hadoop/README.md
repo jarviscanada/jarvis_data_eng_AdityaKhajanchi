@@ -80,9 +80,9 @@ For ranking GDP growth by country, `Window Functions` were used with Hive on `Pa
 - Optimized query paths using `Tez` and `HiveQL` led to stable and predictable performance even for complex queries.
 
 ### Zeppelin Notebook
-![Zeppelin-notebook.zpln](Zeppelin-notebook.zpln)
-![Zeppelin-notebook.ipynb](Zeppelin-notebook.ipynb)
-![Zeppelin-notebook-screenshot](Zeppelin-notebook.png)
+[Zeppelin-notebook.zpln](Zeppelin-notebook.zpln)
+[Zeppelin-notebook.ipynb](Zeppelin-notebook.ipynb)
+![Zeppelin-notebook-screenshot](Zeppelin-notebook-screenshot.png)
 
 ## 4. Improvements
 ### Key Improvements Implemented
