@@ -30,7 +30,7 @@ This project was executed on a `Hadoop cluster` provisioned via `Google Cloud Pl
 
 ## 2. Hadoop Cluster
 ### Cluster architecture diagram
-![Cluster-architecture-diagram](hadoop-cluster-diagram.png)
+![Cluster-architecture-diagram](Cluster-architecture-diagram.png)
 
 ### Hardware Specifications
 The Hadoop cluster was provisioned in the `northamerica-northeast2-a` zone using image version `2.2.60-debian12`. It consisted of one master node and two worker nodes, all using the `custom-2-13312-ext` machine type (2 vCPUs, 13 GB memory). Each node was configured with a 100GB persistent disk of type `pd-standard` and no attached GPUs or local SSDs. Optional components included `Zeppelin`, and system-level features such as autoscaling, advanced execution, Google Cloud Storage caching, and confidential computing were disabled. Internal IPs were used exclusively, with network access set to default. The cluster used `Google-managed encryption` and was linked to a staging bucket at `dataproc-staging-northamerica-northeast2`.
