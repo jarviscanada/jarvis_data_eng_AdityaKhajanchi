@@ -1,22 +1,22 @@
 ## Table of Contents
-- [1 Introduction](#1-introduction)
+- [Introduction](#introduction)
   - [Purpose of this project](#purpose-of-this-project)
   - [Learning and evaluation](#learning-and-evaluation)
   - [Hadoop cluster, tools, and the Hive project](#hadoop-cluster-tools-and-the-hive-project)
-- [2. Hadoop Cluster](#2-hadoop-cluster)
+- [Hadoop Cluster](#hadoop-cluster)
   - [Cluster architecture diagram](#cluster-architecture-diagram)
   - [Hardware Specifications](#hardware-specifications)
   - [Cluster Architecture (Master Node, Worker Nodes)](#cluster-architecture-master-node-worker-nodes)
   - [Core components from the Hadoop ecosystem](#core-components-from-the-hadoop-ecosystem)
   - [Big data tools](#big-data-tools)
-- [3. Hive Project](#3-hive-project)
+- [Hive Project](#hive-project)
   - [Performance Tuning in Hive](#performance-tuning-in-hive)
   - [Zeppelin Notebook](#Zeppelin-notebook)
-- [4. Improvements](#4-improvements)
+- [Improvements](#improvements)
   - [Key Improvements Implemented](#key-improvements-implemented)
   - [Future Improvements](#future-improvements)
 
-## 1. Introduction
+## Introduction
 ### Purpose of this project
 This project evaluates `Apache Hadoop` as a scalable alternative to legacy data analytics platforms such as SAP and R. The project involves provisioning a `Hadoop cluster` on `Google Cloud Platform (GCP)`. It examines the functionality of key components such as `HDFS` for distributed storage, `YARN` for resource coordination, and `MapReduce` for batch processing. The project demonstrates how big data platforms can be configured to efficiently manage high-volume workloads and establishes a foundation for comparing performance, query strategies, and optimization techniques in distributed data environments.
 
@@ -28,7 +28,7 @@ The work also highlighted trade-offs between algorithmic approaches, such as `im
 ### Hadoop cluster, tools, and the Hive project
 This project was executed on a `Hadoop cluster` provisioned via `Google Cloud Platform`, consisting of one master node and two worker nodes. `Hive` served as the primary query engine, with data sourced from both `Google Cloud Storage` buckets and `HDFS`. Data processing and parsing were performed using `HiveQL` queries to answer business questions, using `Tez` and `SerDes` within `Zeppelin Notebooks`. Monitoring and performance tracking were carried out through web interfaces such as `YARN Application Timeline`, `Tez UI`, `Spark/MapReduce`, and `HDFS NameNode`. `Git` was used for version control and notebook submissions.
 
-## 2. Hadoop Cluster
+## Hadoop Cluster
 ### Cluster architecture diagram
 ![Cluster-architecture-diagram](Cluster-architecture-diagram.png)
 
@@ -62,7 +62,7 @@ The key big data tools evaluated during the project:
 - **`Tez:`** Investigated as an alternative execution engine to `MapReduce`, providing more efficient query execution and lower latency for `Hive` jobs.
 - **`Spark (optional):`** Considered for its in-memory processing capabilities and versatility for both batch and streaming data analytics.
 
-## 3. Hive Project
+## Hive Project
 ### Performance Tuning in Hive
 At the start of the Hive project, queries were executed on data stored in `Google Storage (GS)` using a plain `CSV` table (`wdi_gs`). To improve efficiency, the data was copied into `HDFS` using the `wdi_csv_text` table. However, queries like `SELECT COUNT(countryName)` on this table still required full scans of the dataset and took ~28-36 seconds depending on caching. A comparison with `Bash` revealed that `Hive` was 20 seconds slower (`Hive: 37s` vs `Bash: 17s`) due to Hive's overhead: SQL parsing, metastore lookups, and job execution via `MapReduce` or `Tez`.
 
@@ -84,7 +84,7 @@ For ranking GDP growth by country, `Window Functions` were used with Hive on `Pa
 - [Zeppelin-notebook.ipynb](Zeppelin-notebook.ipynb)
 ![Zeppelin-notebook-screenshot](Zeppelin-notebook-screenshot.png)
 
-## 4. Improvements
+## Improvements
 ### Key Improvements Implemented
 **Migration from Google Storage to HDFS**  
 Initially, queries were executed directly on `Google Storage (GS)`, which caused high latency due to data transfer. By moving data into `HDFS` (`wdi_csv_text`), queries ran locally on the cluster, significantly improving performance and reducing query time.
