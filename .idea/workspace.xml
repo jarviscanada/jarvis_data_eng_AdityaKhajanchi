@@ -66,6 +66,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.27812.12" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.27812.12" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d0ba2753-ce75-44a4-82e3-3c9e5d012d23" name="Changes" comment="" />
@@ -85,6 +93,7 @@
       <workItem from="1753288128986" duration="1943000" />
       <workItem from="1753290283730" duration="54000" />
       <workItem from="1753290400870" duration="4077000" />
+      <workItem from="1755027629686" duration="365000" />
     </task>
     <task id="LOCAL-00001" summary="Added Power BI Project">
       <option name="closed" value="true" />

@@ -1,6 +1,6 @@
 # Aditya Khajanchi . Jarvis Consulting
 
-I am a curious and enthusiastic Business Systems Analyst with strong communication and collaboration skills. I enjoy taking on new challenges and solving business problems that drive meaningful impact and support organizational goals. Utilized a combination of Excel, Python, and Tableau, at Geopogo to automate data workflows, identify patterns, centralize analytics, and deliver strategic insights. Across my academic and professional experiences, I have contributed to cross-functional projects through leadership, stakeholder engagement, and adaptability in dynamic and fast-paced environments.
+I am a curious and enthusiastic Business Systems Analyst with strong communication and collaboration skills. I enjoy taking on new challenges and solving business problems that drive meaningful impact and support organizational goals. At Jarvis, applying cloud, big data, analytics, and business systems analysis skills to deliver simulated banking and financial services projects that mirror real-world challenges. I'm applying cloud, big data, analytics, and business systems analysis skills to deliver real-world simulated projects in banking and financial services. Across my academic and professional experiences, I have contributed to cross-functional projects through leadership, stakeholder engagement, and adaptability in dynamic and fast-paced environments.
 
 ## Skills
 
