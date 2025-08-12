@@ -19,8 +19,8 @@ skills:
   # At least 5 skills
   proficient:
     - SQL
-    - Tableau
     - PowerBI
+    - Tableau
     - Excel, PowerQuery
     - Reporting
     - Presentations
@@ -28,6 +28,7 @@ skills:
     # At least 5 skills
   competent:
     - Agile/Scrum
+    - Waterfall
     - Python
     - Hadoop
     - MS SQL Server
@@ -37,14 +38,13 @@ skills:
     - Azure AI Services
     - GIS Data
     - Trello
+    - UML Diagrams
     - Documentation
   # At least 5 skills
   familiar:
     - R
     - Snowflake
     - JIRA
-    - Keras
-    - TensorFlow
     - OpenCV
     - Firebase
     - JAVA

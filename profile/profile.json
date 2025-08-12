@@ -118,6 +118,7 @@
   "skills": {
     "competent": [
       "Agile/Scrum",
+      "Waterfall",
       "Python",
       "Hadoop",
       "MS SQL Server",
@@ -127,14 +128,13 @@
       "Azure AI Services",
       "GIS Data",
       "Trello",
+      "UML Diagrams",
       "Documentation"
     ],
     "familiar": [
       "R",
       "Snowflake",
       "JIRA",
-      "Keras",
-      "TensorFlow",
       "OpenCV",
       "Firebase",
       "JAVA",
@@ -143,8 +143,8 @@
     ],
     "proficient": [
       "SQL",
-      "Tableau",
       "PowerBI",
+      "Tableau",
       "Excel, PowerQuery",
       "Reporting",
       "Presentations",

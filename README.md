@@ -4,11 +4,11 @@ I am a curious and enthusiastic Business Systems Analyst with strong communicati
 
 ## Skills
 
-**Proficient:** SQL, Tableau, PowerBI, Excel, PowerQuery, Reporting, Presentations, Git
+**Proficient:** SQL, PowerBI, Tableau, Excel, PowerQuery, Reporting, Presentations, Git
 
-**Competent:** Agile/Scrum, Python, Hadoop, MS SQL Server, ETL, Looker, Visio, Azure AI Services, GIS Data, Trello, Documentation
+**Competent:** Agile/Scrum, Waterfall, Python, Hadoop, MS SQL Server, ETL, Looker, Visio, Azure AI Services, GIS Data, Trello, UML Diagrams, Documentation
 
-**Familiar:** R, Snowflake, JIRA, Keras, TensorFlow, OpenCV, Firebase, JAVA, MS Project, Technical Writing
+**Familiar:** R, Snowflake, JIRA, OpenCV, Firebase, JAVA, MS Project, Technical Writing
 
 ## Jarvis Projects
 
