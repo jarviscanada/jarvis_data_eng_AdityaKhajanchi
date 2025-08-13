@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ba2753-ce75-44a4-82e3-3c9e5d012d23" name="Changes" comment="Added Hadoop project">
+    <list default="true" id="d0ba2753-ce75-44a4-82e3-3c9e5d012d23" name="Changes" comment="Updated Summary with Jarvis XP">
       <change beforePath="$PROJECT_DIR$/profile/profile.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/profile/profile.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +66,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.27812.12" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.27812.12" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d0ba2753-ce75-44a4-82e3-3c9e5d012d23" name="Changes" comment="" />
@@ -85,6 +93,7 @@
       <workItem from="1753288128986" duration="1943000" />
       <workItem from="1753290283730" duration="54000" />
       <workItem from="1753290400870" duration="4077000" />
+      <workItem from="1755027629686" duration="701000" />
     </task>
     <task id="LOCAL-00001" summary="Added Power BI Project">
       <option name="closed" value="true" />
@@ -134,7 +143,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753297925107</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated Summary with Jarvis XP">
+      <option name="closed" value="true" />
+      <created>1755028079103</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1755028079103</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated Summary with Jarvis XP">
+      <option name="closed" value="true" />
+      <created>1755028178270</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1755028178270</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +170,8 @@
     <MESSAGE value="Fixed project links" />
     <MESSAGE value="Added Sql project" />
     <MESSAGE value="Added Hadoop project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Hadoop project" />
+    <MESSAGE value="Updated Summary with Jarvis XP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Summary with Jarvis XP" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
