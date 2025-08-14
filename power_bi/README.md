@@ -1,5 +1,7 @@
 ## 1. Beverages Dashboard
 
+![Coca-Cola Sales Dashboard](Coca-Cola-Sales-Dashboard.png)
+
 **Description**:  
 This dashboard presents a high-level analysis of sales and profitability across various Coca-Cola beverages, including Coke, Diet Coke, Fanta, Dasani Water, Powerade, and Sprite. It provides a clear visual breakdown of sales metrics and profitability drivers.
 
@@ -36,6 +38,8 @@ A Static sales dataset with Coca-Cola beverage sales across U.S. states.
 
 ## 2. Data Professionals Survey Report
 
+![Data Professionals Survey Report](Data-Professionals-Survey-Report.png)
+
 **Description**:  
 This dashboard visualizes the results of a 2022 online survey involving 630 data professionals. The survey explored a wide range of career-related topics such as job roles, programming preferences, work-life balance, ease of breaking into the field, and more.
 
@@ -69,6 +73,11 @@ The report is designed to help recruiters, HR professionals, and aspiring data p
 - Add simple icons or visuals to make the report more engaging.
 
 ## 3. Stocks Dashboard
+
+<p float="left">
+  <img src="Stocks-Dashboard-MSFT.png" width="45%" />
+  <img src="Stocks-Dashboard.png" width="45%" />
+</p>
 
 **Description**:  
 This dashboard offers a dynamic and interactive view of stock performance using live data from Alpha Vantage. It shows historical trends, key financial indicators, candlestick charts, analyst estimates, and financial ratios  all customizable by ticker and time range.
