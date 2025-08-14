@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ba2753-ce75-44a4-82e3-3c9e5d012d23" name="Changes" comment="Updated Skills section">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile/profile.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/profile/profile.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="d0ba2753-ce75-44a4-82e3-3c9e5d012d23" name="Changes" comment="Updated Project description" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +92,7 @@
       <workItem from="1753290283730" duration="54000" />
       <workItem from="1753290400870" duration="4077000" />
       <workItem from="1755027629686" duration="701000" />
-      <workItem from="1755141518966" duration="818000" />
+      <workItem from="1755141518966" duration="964000" />
     </task>
     <task id="LOCAL-00001" summary="Added Power BI Project">
       <option name="closed" value="true" />
@@ -161,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755028178270</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated Project description">
+      <option name="closed" value="true" />
+      <created>1755142477955</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1755142477955</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +178,8 @@
     <MESSAGE value="Added Sql project" />
     <MESSAGE value="Added Hadoop project" />
     <MESSAGE value="Updated Summary with Jarvis XP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Summary with Jarvis XP" />
+    <MESSAGE value="Updated Project description" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Project description" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

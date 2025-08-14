@@ -2,17 +2,16 @@
 
 ## Table of Contents
 
-1\. [Introduction](#introduction)
+- [Introduction](#introduction)
 
-2\. [Implementation](#implementation)
+- [Implementation](#implementation)
+   - [Project Architecture](#project-architecture)
 
-   a\. [Project Architecture](#project-architecture)
+- [Data Analytics and Wrangling](#data-analytics-and-wrangling)
 
-3\. [Data Analytics and Wrangling](#data-analytics-and-wrangling)
+- [RFM Analysis Conclusion](#RFM-Analysis-Conclusion)
 
-4\. [RFM Analysis - Conclusion](#RFM-Analysis---Conclusion)
-
-5\. [Improvements](#improvements)
+- [Improvements](#improvements)
 
 
 ## Introduction
@@ -72,7 +71,7 @@ Refer notebook for code with full analysis and visualizations: [LGS - Data Analy
 -   Design personalized campaigns based on purchase recency and frequency values.
 
 
-## **RFM Analysis - Conclusion**
+## **RFM Analysis Conclusion**
 
 **Segments evaluated:** `Need Attention`, `Loyal Customers`, `At Risk` 
 
