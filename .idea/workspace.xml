@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ba2753-ce75-44a4-82e3-3c9e5d012d23" name="Changes" comment="Added Hadoop project">
-      <change beforePath="$PROJECT_DIR$/profile/profile.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/profile/profile.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="d0ba2753-ce75-44a4-82e3-3c9e5d012d23" name="Changes" comment="Updated Spark README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,25 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/profile&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/rocky/dev/jarvis_data_eng_AdityaKhajanchi&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "feature/spark",
+    "last_opened_file_path": "/home/rocky/dev/jarvis_data_eng_AdityaKhajanchi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d0ba2753-ce75-44a4-82e3-3c9e5d012d23" name="Changes" comment="" />
@@ -134,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753297925107</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated Spark README.md">
+      <option name="closed" value="true" />
+      <created>1755054479363</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1755054479363</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +151,8 @@
     <MESSAGE value="Fixed project links" />
     <MESSAGE value="Added Sql project" />
     <MESSAGE value="Added Hadoop project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Hadoop project" />
+    <MESSAGE value="Updated Spark README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Spark README.md" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
