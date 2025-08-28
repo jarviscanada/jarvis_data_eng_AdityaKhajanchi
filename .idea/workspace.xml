@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0ba2753-ce75-44a4-82e3-3c9e5d012d23" name="Changes" comment="Updated Project description" />
+    <list default="true" id="d0ba2753-ce75-44a4-82e3-3c9e5d012d23" name="Changes" comment="Updated Spark README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/spark/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +57,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/profile&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/spark&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/rocky/dev/jarvis_data_eng_AdityaKhajanchi&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -91,8 +98,7 @@
       <workItem from="1753288128986" duration="1943000" />
       <workItem from="1753290283730" duration="54000" />
       <workItem from="1753290400870" duration="4077000" />
-      <workItem from="1755027629686" duration="701000" />
-      <workItem from="1755141518966" duration="964000" />
+      <workItem from="1756351966390" duration="2306000" />
     </task>
     <task id="LOCAL-00001" summary="Added Power BI Project">
       <option name="closed" value="true" />
@@ -142,6 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753297925107</updated>
     </task>
+    <task id="LOCAL-00007" summary="Updated Spark README.md">
+      <option name="closed" value="true" />
+      <created>1755054479363</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1755054479363</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <task id="LOCAL-00007" summary="Updated Summary with Jarvis XP">
       <option name="closed" value="true" />
       <created>1755028079103</created>
@@ -177,6 +192,8 @@
     <MESSAGE value="Fixed project links" />
     <MESSAGE value="Added Sql project" />
     <MESSAGE value="Added Hadoop project" />
+    <MESSAGE value="Updated Spark README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Spark README.md" />
     <MESSAGE value="Updated Summary with Jarvis XP" />
     <MESSAGE value="Updated Project description" />
     <option name="LAST_COMMIT_MESSAGE" value="Updated Project description" />
