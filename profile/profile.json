@@ -39,7 +39,7 @@
   ],
   "jarvis_projects": [
     {
-      "description": "Developed a scalable big data analytics solution by re-architecting a single-node Python/Jupyter setup to Apache Spark cluster environments. Implemented retail customer analytics, including Recency-Frequency-Monetary (RFM) segmentation, on Azure Databricks using DBFS, Hive Metastore, and Spark Structured APIs (DataFrames, SQL). Evaluated Spark performance in a Hadoop ecosystem by deploying World Development Indicators (WDI) dataset on GCP Dataproc clusters with HDFS, Hive, and Zeppelin notebooks, analyzing GDP trends across countries. Explored Spark internals (jobs, stages, partitions, Catalyst optimizer) and demonstrated distributed computing advantages by comparing Databricks and Hadoop/Zeppelin implementations. Delivered reproducible notebooks, architecture diagrams, highlighting cloud-based scalability, structured APIs, and practical big data processing workflows.",
+      "description": "Re-architected a single-node Python/Jupyter analytics solution to scalable Apache Spark clusters. Performed retail customer analytics with RFM segmentation on Azure Databricks (DBFS, Hive Metastore, DataFrames/SQL). Evaluated Spark on Hadoop via WDI dataset on GCP Dataproc with HDFS, Hive, and Zeppelin, analyzing GDP trends. Explored Spark internals (jobs, stages, partitions, Catalyst optimizer) and demonstrated distributed computing benefits. Delivered reproducible notebooks and architecture diagrams, highlighting cloud scalability and structured API workflows.",
       "git_url": "/spark",
       "name": "PySpark Big Data Analytics: Databricks \u0026 Hadoop/Zeppelin Evaluation"
     },
