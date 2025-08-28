@@ -39,6 +39,11 @@
   ],
   "jarvis_projects": [
     {
+      "description": "Developed a scalable big data analytics solution by re-architecting a single-node Python/Jupyter setup to Apache Spark cluster environments. Implemented retail customer analytics, including Recency-Frequency-Monetary (RFM) segmentation, on Azure Databricks using DBFS, Hive Metastore, and Spark Structured APIs (DataFrames, SQL). Evaluated Spark performance in a Hadoop ecosystem by deploying World Development Indicators (WDI) dataset on GCP Dataproc clusters with HDFS, Hive, and Zeppelin notebooks, analyzing GDP trends across countries. Explored Spark internals (jobs, stages, partitions, Catalyst optimizer) and demonstrated distributed computing advantages by comparing Databricks and Hadoop/Zeppelin implementations. Delivered reproducible notebooks, architecture diagrams, highlighting cloud-based scalability, structured APIs, and practical big data processing workflows.",
+      "git_url": "/spark",
+      "name": "PySpark Big Data Analytics: Databricks \u0026 Hadoop/Zeppelin Evaluation"
+    },
+    {
       "description": "Implemented a scalable Hadoop cluster on Google Cloud Platform (1 master, 2 worker nodes) to assess Hadoop as an alternative to legacy analytics tools such as SAP and R. Designed and tested distributed storage and processing using HDFS, YARN, and Hive, with interactive analysis in Zeppelin notebooks. Conducted performance benchmarking on a 1TB stock trades dataset, demonstrating how distributed computing reduced execution times from hours to minutes. Optimized Hive queries with year-based partitions, Parquet storage (reducing size from 1.7 GB to 263 MB), and the Tez engine, improving query speeds by up to 45x. Explored MapReduce, Tez, and HiveQL for analytics while comparing imperative and declarative SQL approaches in distributed environments.",
       "git_url": "/hadoop",
       "name": "Hadoop Big Data Analytics Project: Setup and Query Optimization"
@@ -120,7 +125,9 @@
       "Agile/Scrum",
       "Waterfall",
       "Python",
+      "Databricks",
       "Hadoop",
+      "Spark/PySpark",
       "MS SQL Server",
       "ETL",
       "Looker",
