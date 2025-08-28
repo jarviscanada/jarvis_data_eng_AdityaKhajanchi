@@ -1,6 +1,6 @@
-**Retail & WDI PySpark Evaluations (Databricks + Zeppelin)**
+## Retail & WDI PySpark Evaluations (Databricks + Zeppelin)
 
-**Table of Contents**
+### Table of Contents
 
 1.  [Introduction](#Introduction)
 2.  [Databricks (Azure) Implementation](#databricks-azure-implementation)\
